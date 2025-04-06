@@ -3,94 +3,67 @@
 <span style="color:red">Pré-requisitos: <a href="02-Product-discovery.md"> Product discovery</a></span>
 
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
-
-Neste momento, transformam-se os insights e validações obtidos em soluções tangíveis e utilizáveis. Esta fase envolve a definição de uma proposta de valor, detalhando a prioridade de cada ideia, e a consequente criação de wireframes, mockups e protótipos de alta fidelidade, que especificam a interface e a experiência do usuário.
-
-
 ## Histórias de usuários
 
 Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas  ⚠️ EXEMPLO ⚠️         | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões        ⚠️ EXEMPLO ⚠️         | Permitir que possam administrar contas |
-
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
-
-Apresente aqui as histórias de usuários que são relevantes para o projeto da sua solução. As histórias de usuários consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuários por contexto, para facilitar consultas recorrentes a esta parte do documento.
-
-> **Links úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (user stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 common user story mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Usuário do sistema  | cadastrar no sistema | eu possa fazer a criação da minha conta no site|
+|Usuário do sistema | fazer login  |  que eu possa acessar os dados da minha conta |
+|Usuário do sistema | ver os cursos disponíveis na minha área  | que eu possa acessá-los e conhecer para realizá-los |
+|Usuário do sistema |quero incluir informações no meu currículo | que eu possa especificar meus dados e montar meu currículo com base nas minhas habilidades desenvolvidas e requisitos da vaga |
+|Usuário do sistema |editar os dados inseridos no meu currículo | que eu possa modificar ou acrescentar informações |
+|Usuário do sistema |excluir meu currículo |que eu possa começar outro do zero |
+|Usuário do sistema |gerar meu currículo depois de pronto |  que eu possa imprimir ou salvar como pdf |
+|Usuário do sistema |acessar as dicas disponíveis |que eu possa me preparar melhor para uma entrevista de emprego |
+|Administrador do sistema |poder adicionar mais cursos na aba de cursos |que possa ter um painel mais completo para os usuários |
 
 
 ## Proposta de valor
 
-**✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
+APRESENTAÇÃO DO DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA
 
-##### Proposta para a persona XPTO ⚠️ EXEMPLO ⚠️
-
-![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
-
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O mapa da proposta de valor é uma ferramenta que auxilia na definição do tipo de produto ou serviço que melhor atende às personas previamente estabelecidas.
-
-
-> **Links úteis**:
-> - [O que é o canvas da proposta de valor e como usar?](https://www.youtube.com/watch?v=Iqb-8Q_eiiA)
+![Proposta de valor 1](images/proposta-valor1.png)
+![Proposta de valor 2](images/proposta-valor2.png)
+![Proposta de valor 3](images/proposta-valor3.png)
+![Proposta de valor 4](images/proposta-valor4.png)
 
 ## Requisitos
 
-As tabelas a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade dos requisitos, aplique uma técnica de priorização e detalhe como essa técnica foi aplicada.
+As tabelas a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos funcionais
 
-| ID     | Descrição do Requisito                                   | Prioridade |
-| ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Permitir que o usuário cadastre tarefas ⚠️ EXEMPLO ⚠️ | ALTA       |
-| RF-002 | Emitir um relatório de tarefas no mês ⚠️ EXEMPLO ⚠️ | MÉDIA     |
+| ID     | Descrição do Requisito                                     | Prioridade |
+| ------ | ---------------------------------------------------------  | ---------- |
+| RF-001 | O sistema deve permitir a criação de contas                |  ALTA      |
+| RF-002 | O sistema deve permitir realizar login em sua conta        |  ALTA      |
+| RF-003 | O sistema deve permitir navegar nos cursos disponíveis     |  ALTA      |
+| RF-004 | O sistema deve permitir gerar um currículo                 |  ALTA      |
+| RF-005 | O sistema deve permitir incluir informações do currículo   |  ALTA      |
+| RF-006 | O sistema deve permitir editar as informações do currículo |  MÉDIA     |
+| RF-007 | O sistema deve permitir excluir o currículo                |  MÉDIA     |
+| RF-008 | O sistema deve permitir acessar as dicas disponíveis       |  MÉDIA     |
+| RF-009 | O sistema deve adicionar mais cursos na aba de cursos      |  BAIXA     |
 
 ### Requisitos não funcionais
 
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em dispositivos móveis ⚠️ EXEMPLO ⚠️ | MÉDIA     |
-| RNF-002 | Deve processar as requisições do usuário em no máximo 3 segundos ⚠️ EXEMPLO ⚠️          | BAIXA      |
+| RNF-001 | O sistema deve funcionar em diferentes dispositivos | MÉDIA     |
+| RNF-002 | O sistema deve funcionar durante 24 horas           | BAIXA      |
+| RNF-003 | O sistema deve suportar o acesso de até 1.000 usuários simultâneos | BAIXA      |
+| RNF-004 | O sistema deve gerar o currículo em até 30 segundos | BAIXA     |
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Com base nas histórias de usuários, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos não funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-
-Lembre-se de que cada requisito deve corresponder a uma e somente uma característica-alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas histórias de usuários foram cobertos.
-
-> **Links úteis**:
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [Entenda o que são requisitos de software, a diferença entre requisito funcional e não funcional, e como identificar e documentar cada um deles](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 
 ## Restrições
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
 O projeto está restrito aos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|001| O projeto deverá ser entregue até o final do semestre ⚠️ EXEMPLO ⚠️ |
-|002| Não é permitido o desenvolvimento de um módulo de back-end  ⚠️ EXEMPLO ⚠️  |
+|001| O projeto deverá ser entregue até o final do semestre  |
+|002| Não é permitido o desenvolvimento de um módulo de back-end   |
+|003| Não é permitido o desenvolvimento de um banco de dados  |
