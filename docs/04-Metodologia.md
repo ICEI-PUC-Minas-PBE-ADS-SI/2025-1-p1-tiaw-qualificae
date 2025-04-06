@@ -33,6 +33,6 @@ Iniciamos nosso trabalho com pesquisas para saber como abordar melhor nosso tema
 | Repositório de código fonte         | GitHub                             | [Repositório de código fonte](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p1-tiaw-qualificae)        |
 | Documentos do projeto               | GitHub                             | [Documentos do projeto](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p1-tiaw-qualificae)        |
 | Gerenciamento do projeto            | GitHub Projects                    | [Gerenciamento do projeto ](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p1-tiaw-qualificae)        |
-| Projeto de interface                | Figma                              | [Projeto de interface](https://www.figma.com/proto/CrcEJGrKcesQyPxqsZfKER/Qualificaê-?node-id=5493-1787&p=f&t=x1swShgHbTfgPFGo-0&scaling=scale-down&content-scaling=fixed&page-id=5488%3A2&starting-point-node-id=5493%3A1787)        |
+| Projeto de interface                | Figma                              | [Projeto de interface](https://www.figma.com/proto/CrcEJGrKcesQyPxqsZfKER/Qualificaê-?node-id=5488-3&p=f&t=x1swShgHbTfgPFGo-0&scaling=scale-down&content-scaling=fixed&page-id=5488%3A2&starting-point-node-id=5493%3A1787)        |
 | Hospedagem                          |                                    |                                      |
  

@@ -62,4 +62,4 @@ Descrição: Depois de inserir todos seus dados aqui será mostrado uma previa d
 
 ### Protótipo Interativo
 
-[Protótipo interativo](https://www.figma.com/proto/CrcEJGrKcesQyPxqsZfKER/Qualificaê-?node-id=5493-1787&p=f&t=x1swShgHbTfgPFGo-0&scaling=scale-down&content-scaling=fixed&page-id=5488%3A2&starting-point-node-id=5493%3A1787)  
+[Protótipo interativo](https://www.figma.com/proto/CrcEJGrKcesQyPxqsZfKER/Qualificaê-?node-id=5488-3&p=f&t=x1swShgHbTfgPFGo-0&scaling=scale-down&content-scaling=fixed&page-id=5488%3A2&starting-point-node-id=5493%3A1787)  
