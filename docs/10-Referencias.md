@@ -1,21 +1,10 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc.) utilizadas no desenvolvimento do trabalho.
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+- NUNES, JULIA **ECONOMIA:** Desemprego fica em 6,5% no trimestre terminado em janeiro. São Paulo: G1, 2025
+- GONÇALVES, RAFAELA **ECONOMIA**. Correio Brasiliense, 2022
+- Instituto Brasileiro de Geografia e Estatística **Desemprego**, 2025
+- Instituto Brasileiro de Geografia e Estatística **DIVULGAÇÃO TRIMESTRAL:** Pesquisa Nacional por Amostra de Domicílios Contínua. 2025
+- DIAS, ANA KARINA e MAYOL, FERNANDA **Falta emprego e sobram vagas** . VALOR ECONOMICO, BRASIL, 2018 
+- AQUILINI, Guiomar H., GONZAGA Leila L. e GUERRA, Márcia H. **"O desemprego feminino na Região Metropolitana de São Paulo"**. Boletim Mulher e Trabalho, 2001.
 
-⚠️ EXEMPLO ⚠️
-
-- BENYON, David. **Interação humano-computador**. 2. ed. São Paulo: Pearson Prentice Hall, 2011.
-
-- CORMEN, Thomas H et al. **Algoritmos:** teoria e prática. 4. ed. Rio de Janeiro: GEN LTC, 2024.
- 
-- ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019.
-
-- RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial:** uma abordagem moderna. 4. ed. Rio de Janeiro, RJ: LTC, 2022.
-
-- SUTHERLAND, Jeffrey Victor; SUTHERLAND, J. J. **Scrum:** a arte de fazer o dobro do trabalho na metade do tempo. Rio de Janeiro, RJ: Sextante, 2019. 254 p.
-
-> **Links úteis**:
-> - [Padrão PUC Minas de normalização ABNT](http://portal.pucminas.br/biblioteca/documentos/GUIA-COMPLETO-ABNT-Elaborar-formatar-trabalho-cientificoNOVO.pdf)
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/)
