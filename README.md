@@ -6,9 +6,7 @@
 
 `1º semestre/2025 e 8º semestre/2025`
 
-A falta de emprego é um dos maiores desafios enfrentados pela sociedade atual. O mercado de trabalho exige cada vez mais qualificação dos profissionais, tornando essencial o acesso a oportunidades de aprendizado e aprimoramento. Muitas pessoas encontram dificuldades para se inserir ou se recolocar no mercado devido principalmente à falta de capacitação adequada. 
-
-Diante dessa realidade, surge o Qualificaê!, um sistema desenvolvido para auxiliar as pessoas por meio da capacitação profissional. O Qualificaê! tem como propósito facilitar o acesso a oportunidades de capacitação e aprimoramento, oferecendo recomendações de cursos gratuitos, além de ferramentas para a criação de currículos, promovendo um caminho mais acessível e eficiente para o desenvolvimento profissional.
+A falta de emprego é um dos maiores desafios enfrentados pela sociedade atual. O mercado de trabalho exige cada vez mais qualificação dos profissionais, tornando essencial o acesso a oportunidades de aprendizado e aprimoramento. Muitas pessoas encontram dificuldades para se inserir ou se recolocar no mercado devido principalmente à falta de capacitação adequada. Diante dessa realidade, surge o Qualificaê!, um sistema desenvolvido para auxiliar as pessoas por meio da capacitação profissional. O Qualificaê! tem como propósito facilitar o acesso a oportunidades de capacitação e aprimoramento, oferecendo recomendações de cursos gratuitos, além de ferramentas para a criação de currículos, promovendo um caminho mais acessível e eficiente para o desenvolvimento profissional.
 
 
 ## Integrantes
