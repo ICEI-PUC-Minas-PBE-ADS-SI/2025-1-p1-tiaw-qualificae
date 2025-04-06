@@ -9,51 +9,57 @@
 
  ## User flow
 
-
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
-
-Fluxo de usuário (user flow) é uma técnica que permite ao desenvolvedor mapear todo o fluxo de navegação do usuário na aplicação. Essa técnica serve para alinhar os caminhos e as possíveis ações que o usuário pode realizar junto com os membros da equipe.
-
-**✳️✳️✳️ COLOQUE AQUI O USER FLOW ✳️✳️✳️**
-
-![Exemplo de fluxo de telas](images/exemplo-userflow.png)
-
-> **Links úteis**:
-> - [User flow: o quê é e como fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User flow vs site maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 user flow tools & templates for smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+![Fluxo](images/fluxo.jpg)
 
 
 ## Wireframes
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 
-São protótipos usados no design de interface para sugerir a estrutura de um site web e seu relacionamento entre suas páginas. Um wireframe web é uma ilustração que mostra o layout dos elementos fundamentais na interface.
+##### TELA PRINCIPAL
 
-**✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
+![Homepage](images/telaPrincipal.png)
+Descrição: Homepage do site onde o usuário terá a visão geral do site e a partir dela acesso as outras funcionalidades.
 
-##### TELA XPTO ⚠️ EXEMPLO ⚠️
+##### TELA LOGIN
 
-Descrição para a tela XPTO
+![Login](images/telaLogin.png)
+Descrição: Login onde se usuário que já tiver login poderá entrar em sua conta ou efetuar seu cadastro.
 
-![Exemplo de wireframe](images/exemplo-wireframe.png)
+##### TELA CADASTRO
 
- 
-> **Links úteis**:
-> - [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135)
-> - [Protótipos vs wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
+![Cadastro Login](images/telaCadastro.png)
+Descrição: Cadastro dos dados para o usuário criar e ter acesso ao login.
 
+##### TELA SOBRE NÓS
+
+![Sobre Nós](images/telaSobreNos.png)
+Descrição: Sobre nós traz uma visão geral de quem somos e nossa motivação com a aplicação.
+
+##### TELA COMO FUNCIONA
+
+![Como Funciona](images/telaComoFunciona.png)
+Descrição: Mesmo sendo um site bem intuitivo quisemos trazer essa aba com obejetivo de explicar e tirar possíveis dúvidas de como usar o site.
+
+##### TELA DICAS
+
+![Dicas](images/telaDicas.png)
+Descrição: Em dicas o usuário vai encontrar uma série de dicas de como se comportar em uma entrevista de emprego.
+
+##### TELA CURSOS
+
+![Cursos](images/telaCursos.png)
+Descrição: Aqui o usuário irá encontrar diversos cursos gratuítos e com certificados separados por áreas de interesse, ao clicar em saiba mais ele será guiado para a plataforma que fornece o curso.
+
+##### TELA GERADOR DE CURRÍCULOS
+
+![Gerador de Currículos](images/telaCurriculo.png)
+Descrição: Para acessar o gerador de currículos é necessário que o usuário esteja cadastrado no site e feito login, assim ele poderá terminar de preencher seus dados para gerar seu currículo.
+
+##### TELA PERFIL GERADO
+
+![Perfil Gerado](images/telaCurriculo2.png)
+Descrição: Depois de inserir todos seus dados aqui será mostrado uma previa do perfil profissional do usuário, que é dado a opção de gerar seu currículo completo por pdf com as formatações necessárias.
 
 ### Protótipo Interativo
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Um protótipo interativo apresenta o projeto das interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse utilizando o software finalizado. Utilize as mesmas ferramentas de criação de wireframes para a montagem do seu protótipo interativo. Inclua o link para o protótipo interativo do projeto.
-
-**✳️✳️✳️ COLOQUE AQUI UM IFRAME COM SEU PROTÓTIPO INTERATIVO ✳️✳️✳️**
-
-✅ [Protótipo interativo](https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false)  ⚠️ EXEMPLO ⚠️
+[Protótipo interativo](https://www.figma.com/proto/CrcEJGrKcesQyPxqsZfKER/Qualificaê-?node-id=5493-1787&p=f&t=x1swShgHbTfgPFGo-0&scaling=scale-down&content-scaling=fixed&page-id=5488%3A2&starting-point-node-id=5493%3A1787)  
