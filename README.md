@@ -1,35 +1,29 @@
-# Nome do projeto
+# Qualificaê!
 
-`CURSO: Coloque o nome do curso aqui, sem abreviações`
+`CURSOS: Tecnologia em Análise e Desenvolvimento de Sistemas e Sistema da Informação`
 
 `DISCIPLINA: Trabalho Interdisciplinar Aplicações Web`
 
-`Xº semestre/ANO`
+`1º semestre/2025 e 8º semestre/2025`
 
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+A falta de emprego é um dos maiores desafios enfrentados pela sociedade atual. O mercado de trabalho exige cada vez mais qualificação dos profissionais, tornando essencial o acesso a oportunidades de aprendizado e aprimoramento. Muitas pessoas encontram dificuldades para se inserir ou se recolocar no mercado devido principalmente à falta de capacitação adequada. 
+
+Diante dessa realidade, surge o Qualificaê!, um sistema desenvolvido para auxiliar as pessoas por meio da capacitação profissional. O Qualificaê! tem como propósito facilitar o acesso a oportunidades de capacitação e aprimoramento, oferecendo recomendações de cursos gratuitos, além de ferramentas para a criação de currículos, promovendo um caminho mais acessível e eficiente para o desenvolvimento profissional.
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Arthur Moreira Silva
+* Beatriz Vaz Keppel
+* Emanuelle Barbosa Henrique
+* Júlio César Vieira Santos
+* Victor Hugo Ribeiro
+
 
 ## Professor
 
-* Nome completo do(a) professor(a)
+* Amália Soares Vieira de Vasconcelos
 
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
-
-Não deixe de informar o link onde a aplicação estará disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
-
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
 
 # Documentação
 
@@ -53,22 +47,3 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 # Apresentação
 
 * <a href="presentation/README.md">Apresentação do projeto</a>
-
-## Dicas 
-
-> **IMPORTANTE: APAGUE ESTA SEÇÃO DE DICAS ANTES DE ENTREGAR SEU TRABALHO**
-
-No desenvolvimento deste trabalho, o grupo deverá utilizar este repositório como local para entrega de todos os artefatos a serem produzidos. Em especial, o grupo deverá providenciar a alteração dos seguintes arquivos:
-
-* **Capa do projeto** (Este arquivo aqui): informação básica sobre o projeto, alunos do grupo e professores responsáveis;
-* **Arquivo CITATION.cff**: utilizado para referenciar o projeto;
-* **Pasta docs**: documentação completa do projeto;
-* **Pasta presentation**: apresentação do projeto;
-* **Pasta src**: todos os arquivos resultantes da programação do software;
-* **Pasta templates**: templates de arquivos úteis ao longo desta disciplina. Essa pasta deve ser removida antes da entrega da versão final do trabalho.
-
-Toda a documentação do projeto é realizado por meio do Markdown, uma linguagem de formatação adotada pelo GitHub e por diversas outras plataformas. Aprenda Markdown e use-o para documentar o projeto.
-
-> **Links úteis**:
-> - [Sintaxe básica de gravação e formatação no GitHub - GitHub Docs](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-> - [Markdown® Básico: Sintaxe, Uso &amp; Exemplos [Passo a Passo]](https://markdown.net.br/sintaxe-basica/)
