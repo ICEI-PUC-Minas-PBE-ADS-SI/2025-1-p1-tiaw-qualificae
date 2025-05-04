@@ -20,6 +20,13 @@
       "nome": "Rommel",
       "email": "rommel@gmail.com",
       "id": 3
+    },
+    {
+      "login": "julio",
+      "senha": "29839244jT@",
+      "nome": "Júlio César",
+      "email": "julimcvss@gmail.com",
+      "id": 4
     }
   ]
 }

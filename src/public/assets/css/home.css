@@ -1,0 +1,51 @@
+.cursos-container {
+    margin: 0 177px;
+}
+
+.curriculo-container {
+    margin: 0 177px;
+    padding-top: 34px;
+}
+
+.cursos-img {
+    margin-left: 230px;
+}
+
+.curriculo-img {
+    margin-right: 216px;
+}
+
+.icone-login {
+    height: 40px;
+    width: 40px;
+    flex-shrink: 0;
+}
+
+.menu {
+    padding: 0 166px;
+}
+
+.nav-container {
+    padding: 16px 120px;
+}
+
+.subtitulo {
+    color: #000;
+    text-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.72px;
+}
+
+.titulo {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.titulo-container {
+    padding: 62px 289px;
+}
