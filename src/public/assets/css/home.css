@@ -15,20 +15,6 @@
     margin-right: 216px;
 }
 
-.icone-login {
-    height: 40px;
-    width: 40px;
-    flex-shrink: 0;
-}
-
-.menu {
-    padding: 0 166px;
-}
-
-.nav-container {
-    padding: 16px 120px;
-}
-
 .subtitulo {
     color: #000;
     text-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);

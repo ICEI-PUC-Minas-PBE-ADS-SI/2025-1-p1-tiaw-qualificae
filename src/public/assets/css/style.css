@@ -108,3 +108,17 @@ h1 {
 main {
     padding: 20px;
 }
+
+.icone-login {
+    height: 40px;
+    width: 40px;
+    flex-shrink: 0;
+}
+
+.menu {
+    padding: 0 166px;
+}
+
+.nav-container {
+    padding: 16px 120px;
+}
