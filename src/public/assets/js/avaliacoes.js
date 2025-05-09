@@ -52,3 +52,33 @@ function enviarAvaliacao() {
     avaliacao = 0;
     atualizarEstrelas();
 }
+
+// Salvar no localStorage
+const novaEntrada = {
+    nota: avaliacao,
+    comentario: comentario
+};
+
+let avaliacoesSalvas = JSON.parse(localStorage.getItem("avaliacoes")) || [];
+avaliacoesSalvas.push(novaEntrada);
+localStorage.setItem("avaliacoes", JSON.stringify(avaliacoesSalvas));
+
+
+
+function carregarAvaliacoes() {
+    const avaliacoesSalvas = JSON.parse(localStorage.getItem("avaliacoes")) || [];
+    const lista = document.getElementById("lista-avaliacoes");
+
+    avaliacoesSalvas.forEach(avaliacaoObj => {
+        const item = document.createElement("li");
+        item.classList.add("list-group-item");
+        item.innerHTML = `
+            <strong>Nota:</strong> ${avaliacaoObj.nota} estrela(s)<br>
+            <strong>Comentário:</strong> ${avaliacaoObj.comentario}
+        `;
+        lista.appendChild(item);
+    });
+}
+
+// Chamar a função quando a página carregar
+window.addEventListener("DOMContentLoaded", carregarAvaliacoes);
