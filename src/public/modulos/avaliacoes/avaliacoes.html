@@ -25,7 +25,7 @@
 </header>
 <main class="py-5">
         <h2 class="mb-4">1. Como você avalia sua experiência ao buscar vagas em nossa plataforma?</h2>
-    <div id="estrelas" class="mb-3">
+    <div id="star-rating" class="mb-3">
         <!-- Estrelas aparecerão aqui via JS -->
     </div>
     <p>1 Estrela: Muito insatisfeito. <br>5 Estrelas: Muito satisfeito.</p>
@@ -34,6 +34,12 @@
     <textarea id="comentario" class="form-control mb-3" rows="4" placeholder="Insira sua resposta"></textarea>
 
     <button class="btn btn-dark" onclick="enviarAvaliacao()">Enviar</button>
+
+    <div class="mt-5">
+    <h4>Avaliações enviadas:</h4>
+    <ul id="lista-avaliacoes" class="list-group"></ul>
+</div>
 </main>
+<script src="../../assets/js/avaliacoes.js"></script>
 </body>
 </html>
