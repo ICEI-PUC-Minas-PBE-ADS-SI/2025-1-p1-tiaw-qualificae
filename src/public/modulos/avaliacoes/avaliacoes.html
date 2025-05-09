@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Currículo</title>
+    <title>Avaliações</title>
     <link href="../../assets/css/style.css" rel="stylesheet"/>
     <link href="../../assets/css/curriculo.css" rel="stylesheet"/>
     <script src="../../assets/js/curriculo.js"></script>
@@ -23,8 +23,17 @@
             });
     </script>
 </header>
-<main class="p-0">
-    
+<main class="py-5">
+        <h2 class="mb-4">1. Como você avalia sua experiência ao buscar vagas em nossa plataforma?</h2>
+    <div id="estrelas" class="mb-3">
+        <!-- Estrelas aparecerão aqui via JS -->
+    </div>
+    <p>1 Estrela: Muito insatisfeito. <br>5 Estrelas: Muito satisfeito.</p>
+
+    <h2 class="mt-5 mb-3">2. Você tem algum comentário ou sugestão?</h2>
+    <textarea id="comentario" class="form-control mb-3" rows="4" placeholder="Insira sua resposta"></textarea>
+
+    <button class="btn btn-dark" onclick="enviarAvaliacao()">Enviar</button>
 </main>
 </body>
 </html>
