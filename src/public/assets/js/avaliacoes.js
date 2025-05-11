@@ -1,6 +1,7 @@
 const container = document.getElementById("star-rating");
 let avaliacao = 0;
 
+
 for (let i = 1; i <= 5; i++) {
     const estrela = document.createElement("span");
     estrela.textContent = "★";
