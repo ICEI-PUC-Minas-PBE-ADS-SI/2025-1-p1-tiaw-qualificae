@@ -6,7 +6,7 @@
             "area": "Administração, negócios e serviços",
             "nome": "Gestão Financeira",
             "instituicao": "Omie Academy",
-            "imagem": "public/assets/images/negocios/1.jpg",
+            "imagem": "../../assets/images/negocios/1.jpg",
             "link": "https://academy.omie.com.br/app/administracao-e-financas/gestao-financeira"
         },
         {
@@ -14,7 +14,7 @@
             "area": "Administração, negócios e serviços",
             "nome": "Contabilidade Digital",
             "instituicao": "Omie Academy",
-            "imagem": "public/assets/public/assets/images/negocios/2.png",
+            "imagem": "../../assets/images/negocios/2.png",
             "link": "https://academy.omie.com.br/app/empreendedor-contabil/contabilidade-digital/"
         },
         {
@@ -22,7 +22,7 @@
             "area": "Administração, negócios e serviços",
             "nome": "Marketing de conteúdo",
             "instituicao": "Omie Academy",
-            "imagem": "public/assets/public/assets/images/negocios/3.png",
+            "imagem": "../../assets/images/negocios/3.png",
             "link": "https://membros.pbyp.com.br/m/c/marketing-de-conteudo"
         },
         {
@@ -30,7 +30,7 @@
             "area": "Administração, negócios e serviços",
             "nome": "Técnicas de vendas e atendimento presencial",
             "instituicao": "Omie Academy",
-            "imagem": "public/assets/images/negocios/4.png",
+            "imagem": "../../assets/images/negocios/4.png",
             "link": "https://academy.omie.com.br/app/vendas-e-fidelizacao/tecnicas-de-vendas-e-atendimento-presencial1/"
         },
         {
@@ -38,7 +38,7 @@
             "area": "Administração, negócios e serviços",
             "nome": "Como aplicar estratégias de marketing",
             "instituicao": "Intelbras",
-            "imagem": "public/assets/images/negocios/5.jpg",
+            "imagem": "../../assets/images/negocios/5.jpg",
             "link": "https://cursos.intelbras.com.br/portal/layout/927/intelbras/pg_interna_sistema.asp?aW5jbHVkZT1jYXRhbG9nby9jdXJzb3Nfdmlldy5hc3AmQ3Vyc29JRD00OTM4Jmt0X2RpZGF4aXM9dG9w"
         },
         {
@@ -46,7 +46,7 @@
             "area": "Administração, negócios e serviços",
             "nome": "Curso Do Bar ao Mercado",
             "instituicao": "Descola",
-            "imagem": "public/assets/images/negocios/6.jpg",
+            "imagem": "../../assets/images/negocios/6.jpg",
             "link": "https://descola.org/do-bar-ao-mercado"
         },
         {
@@ -54,7 +54,7 @@
             "area": "Administração, negócios e serviços",
             "nome": "Desenvolvimento Profissional",
             "instituicao": "Fundação Bradesco",
-            "imagem": "public/assets/images/negocios/7.png",
+            "imagem": "../../assets/images/negocios/7.png",
             "link": "https://www.ev.org.br/cursos/desenvolvimento-profissional"
         },
         {
@@ -62,7 +62,7 @@
             "area": "Administração, negócios e serviços",
             "nome": "Administração no Século 21",
             "instituicao": "Fundação Bradesco",
-            "imagem": "public/assets/images/negocios/8.jpg",
+            "imagem": "../../assets/images/negocios/8.jpg",
             "link": "https://www.ev.org.br/trilhas-de-conhecimento/administracao-no-seculo-21"
         },
         {
@@ -70,7 +70,7 @@
             "area": "Administração, negócios e serviços",
             "nome": "Contabilidade Empresarial",
             "instituicao": "Fundação Bradesco",
-            "imagem": "public/assets/images/negocios/9.jpg",
+            "imagem": "../../assets/images/negocios/9.jpg",
             "link": "https://www.ev.org.br/cursos/Contabilidade-Empresarial"
         },
         {
@@ -78,7 +78,7 @@
             "area": "Administração, negócios e serviços",
             "nome": "Atendimento ao público",
             "instituicao": "Eleve - Câmara dos Deputados",
-            "imagem": "public/assets/images/negocios/10.png",
+            "imagem": "../../assets/images/negocios/10.png",
             "link": "https://educacaoadistancia.camara.leg.br/site/cursos/atendimento-ao-publico/"
         }
     ],
@@ -88,7 +88,7 @@
             "area": " Artes e Design",
             "nome": "Teatro para Iniciantes: Explore Sua Criatividade",
             "instituicao": "Kultivi",
-            "imagem": "public/assets/images/artistico/1.png",
+            "imagem": "../../assets/images/artistico/1.png",
             "link": "https://app.Kultivi.com/dashboard/course/teatro-para-iniciantes-explore-sua-criatividade"
         },
         {
@@ -96,7 +96,7 @@
             "area": " Artes e Design",
             "nome": "Comercialização e distribuição para o Audiovisual",
             "instituicao": "SEBRAE",
-            "imagem": "public/assets/images/artistico/2.png",
+            "imagem": "../../assets/images/artistico/2.png",
             "link": "https://sebrae.com.br/sites/PortalSebrae/cursosonline/comercializacao-e-distribuicao-para-o-audiovisual,580e5540409cd710VgnVCM100000d701210aRCRD"
         },
         {
@@ -104,7 +104,7 @@
             "area": " Artes e Design",
             "nome": "Princípios do Patrimônio Histórico e Cultura",
             "instituicao": "IFMG",
-            "imagem": "public/assets/images/artistico/3.png",
+            "imagem": "../../assets/images/artistico/3.png",
             "link": "https://mais.ifmg.edu.br/maisifmg/enrol/index.php?id=86"
         },
         {
@@ -112,7 +112,7 @@
             "area": " Artes e Design",
             "nome": "Estruturação de Roteiros de Áudio",
             "instituicao": "Learncafe",
-            "imagem": "public/assets/images/artistico/4jpg",
+            "imagem": "../../assets/images/artistico/4.jpg",
             "link": "https://www.Learncafe.com/cursos/estruturacao-de-roteiros-de-audio"
         },
         {
@@ -120,7 +120,7 @@
             "area": " Artes e Design",
             "nome": "Curso básico de fotografia",
             "instituicao": "Learncafe",
-            "imagem": "public/assets/images/artistico/5.jpg",
+            "imagem": "../../assets/images/artistico/5.jpg",
             "link": "https://www.Learncafe.com/cursos/curso-basico-de-fotografia-2"
         },
 
@@ -129,7 +129,7 @@
             "area": " Artes e Design",
             "nome": "Tutorial Photoshop",
             "instituicao": "Learncafe",
-            "imagem": "public/assets/images/artistico/6.png",
+            "imagem": "../../assets/images/artistico/6.png",
             "link": "https://www.Learncafe.com/cursos/tutorial-photoshop-estudiopirata"
         },
         {
@@ -137,7 +137,7 @@
             "area": " Artes e Design",
             "nome": "Explorando a História da MPB",
             "instituicao": "Learncafe",
-            "imagem": "public/assets/images/artistico/7.png",
+            "imagem": "../../assets/images/artistico/7.png",
             "link": "https://www.Learncafe.com/cursos/explorando-a-historia-da-mpb"
         },
         {
@@ -145,7 +145,7 @@
             "area": " Artes e Design",
             "nome": "Pensamento Criativo em Design",
             "instituicao": "Learncafe",
-            "imagem": "public/assets/images/artistico/8.jpg",
+            "imagem": "../../assets/images/artistico/8.jpg",
             "link": "https://www.Learncafe.com/cursos/pensamento-criativo-em-design"
         },
         {
@@ -153,7 +153,7 @@
             "area": " Artes e Design",
             "nome": "Desenvolvimento de Projetos com Design Thinking",
             "instituicao": "Learncafe",
-            "imagem": "public/assets/images/artistico/9.png",
+            "imagem": "../../assets/images/artistico/9.png",
             "link": "https://www.Learncafe.com/cursos/desenvolvimento-de-projetos-com-design-thinking#google_vignette"
         },
         {
@@ -161,7 +161,7 @@
             "area": " Artes e Design",
             "nome": "Estratégias para Produção de Filmes de Sucesso ",
             "instituicao": "Learncafe",
-            "imagem": "public/assets/images/artistico/10.png",
+            "imagem": "../../assets/images/artistico/10.png",
             "link": "https://www.Learncafe.com/cursos/estrategias-para-producao-de-filmes-de-sucesso"
         }
     ],
@@ -171,7 +171,7 @@
             "area": "Ciências Biológicas e da Terra",
             "nome": "Padrão de Desempenho Ambiental e Social - Risco de desastres",
             "instituicao": "Banco Interamericano de Desenvolvimento",
-            "imagem": "public/assets/images/biologicas/1.webp",
+            "imagem": "../../assets/images/biologicas/1.webp",
             "link": "https://cursos.iadb.org/en/topicos/gestao-de-risco-ambiental-e-social/padrao-de-desempenho-ambiental-e-social-4-risco-de-desastres"
         },
         {
@@ -179,7 +179,7 @@
             "area": "Ciências Biológicas e da Terra",
             "nome": "Pastagem para Ovinocultura",
             "instituicao": "SENAR",
-            "imagem": "public/assets/images/biologicas/2.jpg",
+            "imagem": "../../assets/images/biologicas/2.jpg",
             "link": "https://ead.senar.org.br/cursos/pastagem-para-ovinocultura"
         },
         {
@@ -187,7 +187,7 @@
             "area": " Ciências Biológicas e da Terra",
             "nome": "Boas Práticas na Fabricação de Produtos de Carnes Embutidas",
             "instituicao": "SENAR",
-            "imagem": "public/assets/images/biologicas/3.png",
+            "imagem": "../../assets/images/biologicas/3.png",
             "link": "https://ead.senar.org.br/cursos/boas-praticas-na-fabricacao-de-produtos-de-carnes-embutidas"
         },
         {
@@ -195,7 +195,7 @@
             "area": " Ciências Biológicas e da Terra",
             "nome": "Introdução à Astronomia Observacional",
             "instituicao": "Universidade Federal de São Carlos",
-            "imagem": "public/assets/images/biologicas/4.png",
+            "imagem": "../../assets/images/biologicas/4.png",
             "link": "https://cursos.poca.ufscar.br/enrol/index.php?id=57"
         },
         {
@@ -203,7 +203,7 @@
             "area": " Ciências Biológicas e da Terra",
             "nome": "Agroecologia: para além de uma agricultura sustentável",
             "instituicao": "Universidade Federal de São Carlos",
-            "imagem": "public/assets/images/biologicas/5.png",
+            "imagem": "../../assets/images/biologicas/5.png",
             "link": "https://cursos.poca.ufscar.br/enrol/index.php?id=2090"
         },
         {
@@ -211,7 +211,7 @@
             "area": " Ciências Biológicas e da Terra",
             "nome": "Pegada hídrica",
             "instituicao": "Universidade Federal de São Carlos",
-            "imagem": "public/assets/images/biologicas/6.jpg",
+            "imagem": "../../assets/images/biologicas/6.jpg",
             "link": "https://cursos.poca.ufscar.br/enrol/index.php?id=631"
         },
         {
@@ -219,7 +219,7 @@
             "area": " Ciências Biológicas e da Terra",
             "nome": "Biologia Investigativa - unicamp",
             "instituicao": "UNICAMP",
-            "imagem": "public/assets/images/biologicas/7.png",
+            "imagem": "../../assets/images/biologicas/7.png",
             "link": "https://moocs.ggte.unicamp.br/course/biologiainvestigativa/intro"
         },
         {
@@ -227,7 +227,7 @@
             "area": " Ciências Biológicas e da Terra",
             "nome": "Comunicação na Rotina Veterinária",
             "instituicao": "VET Profissional",
-            "imagem": "public/assets/images/biologicas/8.png",
+            "imagem": "../../assets/images/biologicas/8.png",
             "link": "https://cursos.vet.br/curso/comunicacao-veterinaria"
         },
         {
@@ -235,7 +235,7 @@
             "area": " Ciências Biológicas e da Terra",
             "nome": "Anestesia em Bovídeos, Equídeos",
             "instituicao": "VET Profissional",
-            "imagem": "public/assets/images/biologicas/9.jpg",
+            "imagem": "../../assets/images/biologicas/9.jpg",
             "link": "https://cursos.vet.br/curso/anestesia-em-bovideos-equideos-e-equinos"
         },
         {
@@ -243,7 +243,7 @@
             "area": " Ciências Biológicas e da Terra",
             "nome": "Observação Meteorológica",
             "instituicao": "Escola Nacional de Gestão Agropecuária",
-            "imagem": "public/assets/images/biologicas/10.webp",
+            "imagem": "../../assets/images/biologicas/10.webp",
             "link": "https://sistemasweb.agricultura.gov.br/avaenagro/mod/page/view.php?id=29993"
         }
     ],
@@ -253,7 +253,7 @@
             "area": "Análise e Desenvolvimento de Sistemas",
             "nome": "Curso de ciência da computação de Havard",
             "instituicao": "CC50 Havard",
-            "imagem": "public/assets/images/tecnologia/1.jpg",
+            "imagem": "../../assets/images/tecnologia/1.jpg",
             "link": "https://paginas.estudarfora.org.br/cc50-v2"
         },
         {
@@ -261,7 +261,7 @@
             "area": "Análise e Desenvolvimento de Sistemas",
             "nome": "Laboratório de Programação Orientada a Objetos - Parte 1",
             "instituicao": "USP Universidade de São Paulo",
-            "imagem": "public/assets/images/tecnologia/2.png",
+            "imagem": "../../assets/images/tecnologia/2.png",
             "link": ""
         },
         {
@@ -269,7 +269,7 @@
             "area": "Análise e Desenvolvimento de Sistemas",
             "nome": "Programação física com Arduino",
             "instituicao": "Code IOT",
-            "imagem": "public/assets/images/tecnologia/3.jpg",
+            "imagem": "../../assets/images/tecnologia/3.jpg",
             "link": "https://codeiot.org.br/courses/course-v1:LSI-TEC+IOT104+2021_OC/about"
         },
         {
@@ -277,7 +277,7 @@
             "area": "Análise e Desenvolvimento de Sistemas",
             "nome": "Crie um site simples usando HTML, CSS e JavaScript",
             "instituicao": "Fundação Bradesco",
-            "imagem": "public/assets/images/tecnologia/4.webp",
+            "imagem": "../../assets/images/tecnologia/4.webp",
             "link": "https://www.ev.org.br/cursos/crie-um-site-simples-usando-html-css-e-javascript"
         },
         {
@@ -285,7 +285,7 @@
             "area": "Análise e Desenvolvimento de Sistemas",
             "nome": "Banco de Dados 1: fundamentos",
             "instituicao": "IFRS",
-            "imagem": "public/assets/images/tecnologia/5.jpg",
+            "imagem": "../../assets/images/tecnologia/5.jpg",
             "link": "https://aprendamais.mec.gov.br/enrol/index.php?id=1858"
         },
         {
@@ -293,7 +293,7 @@
             "area": "Análise e Desenvolvimento de Sistemas",
             "nome": "Introdução à programação com Python",
             "instituicao": "Santander Open Academy",
-            "imagem": "public/assets/images/tecnologia/6.png",
+            "imagem": "../../assets/images/tecnologia/6.png",
             "link": "https://santanderopenacademy.com/pt_br/courses/introduction_to_python_programming.html"
         },
         {
@@ -301,7 +301,7 @@
             "area": "Análise e Desenvolvimento de Sistemas",
             "nome": "Introdução à ciência de dados",
             "instituicao": "IE University",
-            "imagem": "public/assets/images/tecnologia/7jpg",
+            "imagem": "../../assets/images/tecnologia/7.jpg",
             "link": "https://www.santanderopenacademy.com/pt_br/courses/introduction-to-data-science.html"
         },
         {
@@ -309,7 +309,7 @@
             "area": "Análise e Desenvolvimento de Sistemas",
             "nome": "UX e UI Design",
             "instituicao": "Unicamp",
-            "imagem": "public/assets/images/tecnologia/8.jpge",
+            "imagem": "../../assets/images/tecnologia/8.jpeg",
             "link": "https://moocs.ggte.unicamp.br/course/ux-e-ui-design/intro"
         },
         {
@@ -317,7 +317,7 @@
             "area": "Análise e Desenvolvimento de Sistemas",
             "nome": "Desenvolvimento Web com AngularJS - Unicamp",
             "instituicao": "Unicamp",
-            "imagem": "public/assets/images/tecnologia/9.png",
+            "imagem": "../../assets/images/tecnologia/9.png",
             "link": "https://moocs.ggte.unicamp.br/course/desenvolvimento-web-com-angularjs/intro"
         },
         {
@@ -325,7 +325,7 @@
             "area": "Análise e Desenvolvimento de Sistemas",
             "nome": "Linguagem de Programação",
             "instituicao": "UFRB",
-            "imagem": "public/assets/images/tecnologia/10.png",
+            "imagem": "../../assets/images/tecnologia/10.png",
             "link": "https://avaacademico.ufrb.edu.br/enrol/index.php?id=252"
         }
     ],
@@ -336,7 +336,7 @@
             "area": "Comunicação e Informação",
             "nome": "Comunicação Digital e Data Jornalismo: Conceitos Introdutórios",
             "instituicao": "FGV Educação Executiva ",
-            "imagem": "public/assets/images/comunicacao/1.png",
+            "imagem": "../../assets/images/comunicacao/1.png",
             "link": "https://educacao-executiva.fgv.br/cursos/online/curta-media-duracao-online/comunicacao-digital-e-data-jornalismo-conceitos-introdutorios"
         },
         {
@@ -344,7 +344,7 @@
             "area": "Comunicação e Informação",
             "nome": "Biblioteca Escolar",
             "instituicao":  "IFRS",
-            "imagem": "public/assets/images/comunicacao/2.jpg",
+            "imagem": "../../assets/images/comunicacao/2.jpg",
             "link": "https://aprendamais.mec.gov.br/enrol/index.php?id=1861"
         },
         {
@@ -352,7 +352,7 @@
             "area": "Comunicação e Informação",
             "nome": "so de Mídias Sociais na Comunicação Instituciona",
             "instituicao": "Enap - Escola Nacional de Administração Pública",
-            "imagem": "public/assets/images/comunicacao/3.png",
+            "imagem": "../../assets/images/comunicacao/3.png",
             "link": "https://www.escolavirtual.gov.br/curso/445"
         },
         {
@@ -360,7 +360,7 @@
             "area": "Comunicação e Informação",
             "nome": "Comunicação Escrita",
             "instituicao": "Fundação Bradesco",
-            "imagem": "public/assets/images/comunicacao/4.png",
+            "imagem": "../../assets/images/comunicacao/4.png",
             "link": "https://www.ev.org.br/cursos/comunicacao-escrita"
         },
         {
@@ -368,7 +368,7 @@
             "area": "Comunicação e Informação",
             "nome": "Cerimonial e protocolo: noções básicas",
             "instituicao": "Eleve - Câmara dos Deputados",
-            "imagem": "public/assets/images/comunicacao/5.jpeg",
+            "imagem": "../../assets/images/comunicacao/5.jpeg",
             "link": "https://educacaoadistancia.camara.leg.br/site/cursos/cerimonial-e-protocolo/"
         },
         {
@@ -376,7 +376,7 @@
             "area": "Comunicação e Informação",
             "nome": "Fundamentos das Relações Internacionais",
             "instituicao": "FGV Educação Executiva",
-            "imagem": "public/assets/images/comunicacao/6.jpg",
+            "imagem": "../../assets/images/comunicacao/6.jpg",
             "link": "https://educacao-executiva.fgv.br/cursos/online/curta-media-duracao-online/fundamentos-das-relacoes-internacionais"
         },
         {
@@ -384,7 +384,7 @@
             "area": "Comunicação e Informação",
             "nome": "Curso de Audacity",
             "instituicao": "Gyn Cursos",
-            "imagem": "public/assets/images/comunicacao/7,jpg",
+            "imagem": "../../assets/images/comunicacao/7.jpg",
             "link": "https://gyncursos.com.br/course/curso-de-audacity-online-gratis-com-certificado/"
         },
         {
@@ -392,7 +392,7 @@
             "area": "Comunicação e Informação",
             "nome": "Gestão de Projetos e Fundamentos de métodos Agile",
             "instituicao": "Santander Open Academy",
-            "imagem": "public/assets/images/comunicacao/8.png",
+            "imagem": "../../assets/images/comunicacao/8.png",
             "link": "https://www.santanderopenacademy.com/pt_br/courses/project-management-agile-fundamentals.html?"
         },
         {
@@ -400,7 +400,7 @@
             "area": "Comunicação e Informação",
             "nome": "Entendendo o comportamento do consumidor",
             "instituicao": "University Of Miami",
-            "imagem": "public/assets/images/comunicacao/9.jpge",
+            "imagem": "../../assets/images/comunicacao/9.jpeg",
             "link": "https://www.santanderopenacademy.com/pt_br/courses/consumer-behavior-essentials.html?"
         },
         {
@@ -408,7 +408,7 @@
             "area": "Comunicação e Informação",
             "nome": "Fortaleça a confiança através da autopromoção",
             "instituicao": "Google Atelier Digital",
-            "imagem": "public/assets/images/comunicacao/10.png",
+            "imagem": "../../assets/images/comunicacao/10.png",
             "link": "https://skillshop.exceedlms.com/student/collection/740635-self-promotion?sid=223bf7b7-6689-4644-9635-64b83b9b2e2e&sid_i=3"
         }
     ],
@@ -418,7 +418,7 @@
             "area": "Ciências Sociais e Humanas",
             "nome": "Direito Constitucional OAB",
             "instituicao": "Kultivi ",
-            "imagem": "public/assets/images/socioHumanas/1.jpg",
+            "imagem": "../../assets/images/socioHumanas/1.jpg",
             "link": "https://Kultivi.com/cursos/oab/direito-constitucional-oab"
         },
         {
@@ -426,7 +426,7 @@
             "area": "Ciências Sociais e Humanas",
             "nome": "Ética Profissional OAB",
             "instituicao": "Kultivi ",
-            "imagem": "public/assets/images/socioHumanas/2.png",
+            "imagem": "../../assets/images/socioHumanas/2.png",
             "link": "https://Kultivi.com/cursos/oab/etica-profissional-para-oab"
         },
         {
@@ -434,7 +434,7 @@
             "area": "Ciências Sociais e Humanas",
             "nome": "Prática Penal - Preparatório OAB",
             "instituicao": "Kultivi" ,
-            "imagem": "public/assets/images/socioHumanas/3.png",
+            "imagem": "../../assets/images/socioHumanas/3.png",
             "link": "https://Kultivi.com/cursos/oab/pratica-penal-2a-fase-oab"
         },
         {
@@ -442,7 +442,7 @@
             "area": "Ciências Sociais e Humanas",
             "nome": "Conhecendo o Novo Acordo Ortográfico",
             "instituicao": "Saberes ",
-            "imagem": "public/assets/images/socioHumanas/4.png",
+            "imagem": "../../assets/images/socioHumanas/4.png",
             "link": "https://saberes.senado.leg.br/course/index.php?categoryid=358"
         },
         {
@@ -450,7 +450,7 @@
             "area": "Ciências Sociais e Humanas",
             "nome": "Filosofia I ",
             "instituicao": "IFRS",
-            "imagem": "public/assets/images/socioHumanas/5.png",
+            "imagem": "../../assets/images/socioHumanas/5.png",
             "link": "https://aprendamais.mec.gov.br/enrol/index.php?id=1945"
         },
         {
@@ -458,7 +458,7 @@
             "area": "Ciências Sociais e Humanas",
             "nome": "Geografia e Geopolítica na Atualidade",
             "instituicao": "IFRS",
-            "imagem": "public/assets/images/socioHumanas/6.webp",
+            "imagem": "../../assets/images/socioHumanas/6.webp",
             "link": "https://aprendamais.mec.gov.br/enrol/index.php?id=1752"
         },
         {
@@ -466,7 +466,7 @@
             "area": "Ciências Sociais e Humanas",
             "nome": "História do Brasil",
             "instituicao": "IFRS",
-            "imagem": "public/assets/images/socioHumanas/7.webp",
+            "imagem": "../../assets/images/socioHumanas/7.webp",
             "link": "https://aprendamais.mec.gov.br/enrol/index.php?id=1980"
         },
         {
@@ -474,7 +474,7 @@
             "area": "Ciências Sociais e Humanas",
             "nome": "O conceito contemporâneo da deficiência e o modelo biopsicossocial",
             "instituicao": "Escola Nacional de Administração Pública",
-            "imagem": "public/assets/images/socioHumanas/8.png",
+            "imagem": "../../assets/images/socioHumanas/8.png",
             "link": "https://www.escolavirtual.gov.br/curso/1191"
         },
         {
@@ -482,7 +482,7 @@
             "area": "Ciências Sociais e Humanas",
             "nome": "Curso de Secretaria Escolar",
             "instituicao": "Gyn Cursos",
-            "imagem": "public/assets/images/socioHumanas/9.webp",
+            "imagem": "../../assets/images/socioHumanas/9.webp",
             "link": "https://gyncursos.com.br/course/curso-de-secretaria-escolar/"
         },
         {
@@ -490,7 +490,7 @@
             "area": "Ciências Sociais e Humanas",
             "nome": "Curso de Educação e Cultura Corporalr",
             "instituicao": "Gyn Cursos",
-            "imagem": "public/assets/images/socioHumanas/10.webp",
+            "imagem": "../../assets/images/socioHumanas/10.webp",
             "link": "https://gyncursos.com.br/course/curso-de-educacao-e-cultura-corporal/"
         }
     ],
@@ -500,7 +500,7 @@
             "area": "Engenharia e Produção",
             "nome": "Introdução ao Controle Tecnológico Aplicado à Usinas de Concreto",
             "instituicao": "IFRS",
-            "imagem": "public/assets/images/engenharias/1.png",
+            "imagem": "../../assets/images/engenharias/1.png",
             "link": "https://aprendamais.mec.gov.br/enrol/index.php?id=2158"
         },
         {
@@ -508,7 +508,7 @@
             "area": "Engenharia e Produção",
             "nome": "Sustentabilidade e Urbanismo",
             "instituicao": "IFRS",
-            "imagem": "public/assets/images/engenharias/2.jpg",
+            "imagem": "../../assets/images/engenharias/2.jpg",
             "link": "https://aprendamais.mec.gov.br/enrol/index.php?id=2135"
         },
         {
@@ -516,7 +516,7 @@
             "area": "Engenharia e Produção",
             "nome": "Cálculo Técnico",
             "instituicao": "IFRS",
-            "imagem": "public/assets/images/engenharias/3.png",
+            "imagem": "../../assets/images/engenharias/3.png",
             "link": "https://aprendamais.mec.gov.br/enrol/index.php?id=1864"
         },
         {
@@ -524,7 +524,7 @@
             "area": "Engenharia e Produção",
             "nome": "Solicitação de Recursos para Obras de Reconstrução",
             "instituicao": "Escola Nacional de Administração Pública",
-            "imagem": "public/assets/images/engenharias/4.jpg",
+            "imagem": "../../assets/images/engenharias/4.jpg",
             "link": "https://www.escolavirtual.gov.br/curso/391"
         },
         {
@@ -532,7 +532,7 @@
             "area": "Engenharia e Produção",
             "nome": "Curso de AutoCAD Completo",
             "instituicao": "Kultivi",
-            "imagem": "public/assets/images/engenharias/5.jpg",
+            "imagem": "../../assets/images/engenharias/5.jpg",
             "link": "https://Kultivi.com/cursos/negocios/autocad-essencial#google_vignette"
         },
         {
@@ -540,7 +540,7 @@
             "area": "Engenharia e Produção",
             "nome": "Fiscalização de projetos e obras de engenharia",
             "instituicao": "Enap - Escola Nacional de Administração Pública",
-            "imagem": "public/assets/images/engenharias/6.png",
+            "imagem": "../../assets/images/engenharias/6.png",
             "link": "https://www.escolavirtual.gov.br/curso/940"
         },
         {
@@ -548,7 +548,7 @@
             "area": "Engenharia e Produção",
             "nome": "Curso de Engenharia da Sustentabilidade",
             "instituicao": "Gyn Cursos",
-            "imagem": "public/assets/images/engenharias/7.webp",
+            "imagem": "../../assets/images/engenharias/7.webp",
             "link": "https://gyncursos.com.br/course/curso-de-engenharia-da-sustentabilidade/"
         },
         {
@@ -556,7 +556,7 @@
             "area": "Engenharia e Produção",
             "nome": "Curso de Ergonomia na Engenharia de Produção",
             "instituicao": "Gyn Cursos",
-            "imagem": "public/assets/images/engenharias/8.webp",
+            "imagem": "../../assets/images/engenharias/8.webp",
             "link": "https://gyncursos.com.br/course/curso-de-ergonomia-na-engenharia-de-producao/"
         },
         {
@@ -564,7 +564,7 @@
             "area": "Engenharia e Produção",
             "nome": "curso de Modelagem e Simulação",
             "instituicao": "Gyn Cursos",
-            "imagem": "public/assets/images/engenharias/9.jpg",
+            "imagem": "../../assets/images/engenharias/9.jpg",
             "link": "https://gyncursos.com.br/course/curso-de-modelagem-e-simulacao/"
         },
         {
@@ -572,7 +572,7 @@
             "area": "Engenharia e Produção",
             "nome": "Desenho Arquitetônico",
             "instituicao": "IFRS",
-            "imagem": "public/assets/images/engenharias/10.jpg",
+            "imagem": "../../assets/images/engenharias/10.jpg",
             "link": "https://aprendamais.mec.gov.br/enrol/index.php?id=1892"
         }
     ],
@@ -582,7 +582,7 @@
             "area": "Saúde e Bem-estar",
             "nome": "Meios digitais para resultados na saúde",
             "instituicao": "Yale University",
-            "imagem": "public/assets/images/saude/1.jpg",
+            "imagem": "../../assets/images/saude/1.jpg",
             "link": "https://www.classcentral.com/course/digital-media-health-outcomes-pt-207068"
         },
         {
@@ -590,7 +590,7 @@
             "area": "Saúde e Bem-estar",
             "nome": "Altas Habilidades / Superdotação: conceitos",
             "instituicao": "IFRS",
-            "imagem": "public/assets/images/saude/2.png",
+            "imagem": "../../assets/images/saude/2.png",
             "link": "https://aprendamais.mec.gov.br/enrol/index.php?id=1850"
         },
         {
@@ -598,7 +598,7 @@
             "area": "Saúde e Bem-estar",
             "nome": "Primeiros Socorros para Profissionais de Saúde",
             "instituicao": "IFRS",
-            "imagem": "public/assets/images/saude/3.png",
+            "imagem": "../../assets/images/saude/3.png",
             "link": "https://aprendamais.mec.gov.br/enrol/index.php?id=2059"
         },
         {
@@ -606,7 +606,7 @@
             "area": "Saúde e Bem-estar",
             "nome": "Promoção da Saúde Mental",
             "instituicao": "IFRS",
-            "imagem": "public/assets/images/saude/4.png",
+            "imagem": "../../assets/images/saude/4.png",
             "link": "https://aprendamais.mec.gov.br/enrol/index.php?id=2099"
         },
         {
@@ -614,7 +614,7 @@
             "area": "Saúde e Bem-estar",
             "nome": "Curso de Estética Corporal: Massagem Relaxante e Modeladora",
             "instituicao": "Iped Cursos",
-            "imagem": "public/assets/images/saude/5.jpg",
+            "imagem": "../../assets/images/saude/5.jpg",
             "link": "https://www.iped.com.br/cursos-gratis/medicina-alternativa/curso-rapido/estetica-corporal-massagem-relaxante-modeladora"
         },
         {
@@ -622,7 +622,7 @@
             "area": "Saúde e Bem-estar",
             "nome": "Curso de Educação Alimentar: Hipertensão e Diabetes",
             "instituicao": "Iped Cursos",
-            "imagem": "public/assets/images/saude/6.png",
+            "imagem": "../../assets/images/saude/6.png",
             "link": "https://www.iped.com.br/cursos-gratis/nutricao/curso-rapido/educacao-alimentar-hipertensao-diabetes"
         },
         {
@@ -630,7 +630,7 @@
             "area": "Saúde e Bem-estar",
             "nome": "Curso de Lesões Bucais na Infância: Manifestações de Doenças Infecciosas",
             "instituicao": "Iped Cursos",
-            "imagem": "public/assets/images/saude/7.jpg",
+            "imagem": "../../assets/images/saude/7.jpg",
             "link": "https://www.iped.com.br/cursos-gratis/odontologia/curso-rapido/lesoes-bucais-infancia-manifestacoes-doencas-infecciosas"
         },
         {
@@ -638,7 +638,7 @@
             "area": "Saúde e Bem-estar",
             "nome": "Saneamento Básico e Saúde Pública",
             "instituicao": "Enap - Escola Nacional de Administração Pública",
-            "imagem": "public/assets/images/saude/8.png",
+            "imagem": "../../assets/images/saude/8.png",
             "link": "https://www.escolavirtual.gov.br/curso/1357"
         },
         {
@@ -646,7 +646,7 @@
             "area": "Saúde e Bem-estar",
             "nome": "Segurança do paciente e Qualidade em serviços de saúde",
             "instituicao": "Enap - Escola Nacional de Administração Pública",
-            "imagem": "public/assets/images/saude/9.png",
+            "imagem": "../../assets/images/saude/9.png",
             "link": "https://www.escolavirtual.gov.br/curso/236"
         },
         {
@@ -654,7 +654,7 @@
             "area": "Saúde e Bem-estar",
             "nome": "Transmissão aérea: atualização após a Covid-19 ",
             "instituicao": "Enap - Escola Nacional de Administração Pública",
-            "imagem": "public/assets/images/saude/10.png",
+            "imagem": "../../assets/images/saude/10.png",
             "link": "https://www.escolavirtual.gov.br/curso/751"
         }
     ],
@@ -664,7 +664,7 @@
             "area": "Linguagens / Conhecimentos gerais",
             "nome": "Informática e Internet Básico",
             "instituicao": "SENAR",
-            "imagem": "public/assets/images/linguagens/1.webp",
+            "imagem": "../../assets/images/linguagens/1.webp",
             "link": "https://ead.senar.org.br/cursos/informatica-e-internet-basico"
         },
 
@@ -673,7 +673,7 @@
             "area": "Linguagens / Conhecimentos gerais",
             "nome": "Business English: Listening and Communication skills - Part 1",
             "instituicao": "Santander Open Academy",
-            "imagem": "public/assets/images/linguagens/2.webp",
+            "imagem": "../../assets/images/linguagens/2.webp",
             "link": "https://www.santanderopenacademy.com/pt_br/courses/business-english-listening-communication-skills-1.html"
         },
         {
@@ -681,7 +681,7 @@
             "area": "Linguagens / Conhecimentos gerais",
             "nome": "Fundamentos do Power BI",
             "instituicao": " Santander Open Academy",
-            "imagem": "public/assets/images/linguagens/3.png",
+            "imagem": "../../assets/images/linguagens/3.png",
             "link": "https://www.santanderopenacademy.com/pt_br/courses/power-bi-fundamentals.html"
         },
         {
@@ -689,7 +689,7 @@
             "area": "Linguagens / Conhecimentos gerais",
             "nome": "Organização Pessoal",
             "instituicao": "Fundação Bradesco",
-            "imagem": "public/assets/images/linguagens/4.jpeg",
+            "imagem": "../../assets/images/linguagens/4.jpeg",
             "link": "https://www.ev.org.br/cursos/organizacao-pessoal"
         },
 
@@ -698,7 +698,7 @@
             "area": "Linguagens / Conhecimentos gerais",
             "nome": "Curso: Plano de carreira e Autoconhecimento",
             "instituicao": "Omie.Academy",
-            "imagem": "public/assets/images/linguagens/5.png",
+            "imagem": "../../assets/images/linguagens/5.png",
             "link": "https://academy.omie.com.br/app/desenvolvendo-pessoas/plano-de-carreira-autoconhecimento"
         },
         {
@@ -706,7 +706,7 @@
             "area": "Linguagens / Conhecimentos gerais",
             "nome": "Curso Básico de inglês",
             "instituicao": "Veduca",
-            "imagem": "public/assets/images/linguagens/6.jpg",
+            "imagem": "../../assets/images/linguagens/6.jpg",
             "link": "https://veduca.org/courses/ingles/"
         },
         {
@@ -714,7 +714,7 @@
             "area": "Linguagens / Conhecimentos gerais",
             "nome": "Curso Básico de Espanhol",
             "instituicao": "Veduca",
-            "imagem": "public/assets/images/linguagens/7.png",
+            "imagem": "../../assets/images/linguagens/7.png",
             "link": "https://veduca.org/courses/espanhol/"
         },
         {
@@ -722,7 +722,7 @@
             "area": "Linguagens / Conhecimentos gerais",
             "nome": "Excel do básico ao avançado",
             "instituicao": "Veduca",
-            "imagem": "public/assets/images/linguagens/8.png",
+            "imagem": "../../assets/images/linguagens/8.png",
             "link": "https://veduca.org/courses/curso-excel/"
         },
         {
@@ -730,7 +730,7 @@
             "area": "Linguagens / Conhecimentos gerais",
             "nome": "Word do básico ao avançado",
             "instituicao": "Veduca",
-            "imagem": "public/assets/images/linguagens/9.jpeg",
+            "imagem": "../../assets/images/linguagens/9.jpg",
             "link": "https://veduca.org/courses/curso-word/"
         },
 
@@ -739,7 +739,7 @@
             "area": "Linguagens / Conhecimentos gerais",
             "nome": "Francês Básico 1",
             "instituicao": "IFMG",
-            "imagem": "public/assets/images/linguagens/10.jpeg",
+            "imagem": "../../assets/images/linguagens/10.jpeg",
             "link": "https://mais.ifmg.edu.br/maisifmg/enrol/index.php?id=80"
         }
     ]

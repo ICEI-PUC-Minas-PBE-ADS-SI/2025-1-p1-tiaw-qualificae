@@ -53,14 +53,22 @@ document.addEventListener("DOMContentLoaded", () => {
             }); //trata possiveis erros
     }
 
-     // inicializa a exibição dos cursos da categoria padrão quando carregar a página
+
+
+    // inicializa a exibição dos cursos da categoria padrão quando carregar a página
     loadCourses('negocios');
-    
+
     // configura os botões para carregar as categorias ao clicar
     document.querySelectorAll('.category-btn').forEach(button => {
         button.addEventListener('click', () => {
             const categoria = button.getAttribute('data-category');
             loadCourses(categoria);
+
+            // Remove classe 'active' de todos os botões
+            document.querySelectorAll('.category-btn').forEach(btn => btn.classList.remove('active'));
+
+            // Adiciona a classe 'active' ao botão clicado
+            button.classList.add('active');
         });
     });
 });
