@@ -13,6 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
@@ -76,23 +77,26 @@
     </header>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="d-flex flex-wrap justify-content-center gap-2 my-3">
-            <button class="btn btn-secondary" data-cursos="negocios">Administração, negócios e serviços</button>
-            <button class="btn btn-outline-secondary" data-cursos="artistico">Artes e Design</button>
-            <button class="btn btn-outline-secondary" data-cursos="biologicas">Ciências Biológicas e da Terra</button>
-            <button class="btn btn-outline-secondary" data-cursos="tecnologia">Análise e Desenvolvimento de
-                Sistemas</button>
-            <button class="btn btn-outline-secondary" data-cursos="socioHumanas">Ciências sociais e humanas</button>
-            <button class="btn btn-outline-secondary" data-cursos="comunicacao">Comunicação e informação</button>
-            <button class="btn btn-outline-secondary" data-cursos="engenharias">Engenharia e produção</button>
-            <button class="btn btn-outline-secondary" data-cursos="saude">Saúde e Bem-estar</button>
-            <button class="btn btn-outline-secondary" data-cursos="linguagens">Conhecimentos Gerais e
-                Linguagens</button>
-        </div>
-    </nav>
+  <div class="d-flex flex-wrap justify-content-center gap-2 my-3">
+    <button class="btn btn-outline-secondary category-btn" data-category="negocios">Administração, negócios e serviços</button>
+    <button class="btn btn-outline-secondary category-btn" data-category="artistico">Artes e Design</button>
+    <button class="btn btn-outline-secondary category-btn" data-category="biologicas">Ciências Biológicas e da Terra</button>
+    <button class="btn btn-outline-secondary category-btn" data-category="tecnologia">Análise e Desenvolvimento de Sistemas</button>
+    <button class="btn btn-outline-secondary category-btn" data-category="socioHumanas">Ciências sociais e humanas</button>
+    <button class="btn btn-outline-secondary category-btn" data-category="comunicacao">Comunicação e informação</button>
+    <button class="btn btn-outline-secondary category-btn" data-category="engenharias">Engenharia e produção</button>
+    <button class="btn btn-outline-secondary category-btn" data-category="saude">Saúde e Bem-estar</button>
+    <button class="btn btn-outline-secondary category-btn" data-category="linguagens">Conhecimentos Gerais e Linguagens</button>
+  </div>
+</nav>
+
 
     <main id="cursos-container" class="p-0">
-      <!--aqui vai carregar o javascript-->
+        <!-- Aqui o JavaScript vai injetar os cards -->
     </main>
 
+
+    <script src="/src/public/assets/js/cursos.js"></script>
+
 </body>
+</html>

@@ -89,7 +89,7 @@
             "nome": "Teatro para Iniciantes: Explore Sua Criatividade",
             "instituicao": "Kultivi",
             "imagem": "public/assets/images/artistico/1.png",
-            "link": "https://app.kultivi.com/dashboard/course/teatro-para-iniciantes-explore-sua-criatividade"
+            "link": "https://app.Kultivi.com/dashboard/course/teatro-para-iniciantes-explore-sua-criatividade"
         },
         {
             "id": 2,
@@ -111,58 +111,58 @@
             "id": 4,
             "area": " Artes e Design",
             "nome": "Estruturação de Roteiros de Áudio",
-            "instituicao": "learncafe",
+            "instituicao": "Learncafe",
             "imagem": "public/assets/images/artistico/4jpg",
-            "link": "https://www.learncafe.com/cursos/estruturacao-de-roteiros-de-audio"
+            "link": "https://www.Learncafe.com/cursos/estruturacao-de-roteiros-de-audio"
         },
         {
             "id": 5,
             "area": " Artes e Design",
             "nome": "Curso básico de fotografia",
-            "instituicao": "learncafe",
+            "instituicao": "Learncafe",
             "imagem": "public/assets/images/artistico/5.jpg",
-            "link": "https://www.learncafe.com/cursos/curso-basico-de-fotografia-2"
+            "link": "https://www.Learncafe.com/cursos/curso-basico-de-fotografia-2"
         },
 
         {
             "id": 6,
             "area": " Artes e Design",
             "nome": "Tutorial Photoshop",
-            "instituicao": "learncafe",
+            "instituicao": "Learncafe",
             "imagem": "public/assets/images/artistico/6.png",
-            "link": "https://www.learncafe.com/cursos/tutorial-photoshop-estudiopirata"
+            "link": "https://www.Learncafe.com/cursos/tutorial-photoshop-estudiopirata"
         },
         {
             "id": 7,
             "area": " Artes e Design",
             "nome": "Explorando a História da MPB",
-            "instituicao": "learncafe",
+            "instituicao": "Learncafe",
             "imagem": "public/assets/images/artistico/7.png",
-            "link": "https://www.learncafe.com/cursos/explorando-a-historia-da-mpb"
+            "link": "https://www.Learncafe.com/cursos/explorando-a-historia-da-mpb"
         },
         {
             "id": 8,
             "area": " Artes e Design",
             "nome": "Pensamento Criativo em Design",
-            "instituicao": "learncafe",
+            "instituicao": "Learncafe",
             "imagem": "public/assets/images/artistico/8.jpg",
-            "link": "https://www.learncafe.com/cursos/pensamento-criativo-em-design"
+            "link": "https://www.Learncafe.com/cursos/pensamento-criativo-em-design"
         },
         {
             "id": 9,
             "area": " Artes e Design",
             "nome": "Desenvolvimento de Projetos com Design Thinking",
-            "instituicao": "learncafe",
+            "instituicao": "Learncafe",
             "imagem": "public/assets/images/artistico/9.png",
-            "link": "https://www.learncafe.com/cursos/desenvolvimento-de-projetos-com-design-thinking#google_vignette"
+            "link": "https://www.Learncafe.com/cursos/desenvolvimento-de-projetos-com-design-thinking#google_vignette"
         },
         {
             "id": 10,
             "area": " Artes e Design",
             "nome": "Estratégias para Produção de Filmes de Sucesso ",
-            "instituicao": "learncafe",
+            "instituicao": "Learncafe",
             "imagem": "public/assets/images/artistico/10.png",
-            "link": "https://www.learncafe.com/cursos/estrategias-para-producao-de-filmes-de-sucesso"
+            "link": "https://www.Learncafe.com/cursos/estrategias-para-producao-de-filmes-de-sucesso"
         }
     ],
     "biologicas": [
@@ -419,7 +419,7 @@
             "nome": "Direito Constitucional OAB",
             "instituicao": "Kultivi ",
             "imagem": "public/assets/images/socioHumanas/1.jpg",
-            "link": "https://kultivi.com/cursos/oab/direito-constitucional-oab"
+            "link": "https://Kultivi.com/cursos/oab/direito-constitucional-oab"
         },
         {
             "id": 2,
@@ -427,7 +427,7 @@
             "nome": "Ética Profissional OAB",
             "instituicao": "Kultivi ",
             "imagem": "public/assets/images/socioHumanas/2.png",
-            "link": "https://kultivi.com/cursos/oab/etica-profissional-para-oab"
+            "link": "https://Kultivi.com/cursos/oab/etica-profissional-para-oab"
         },
         {
             "id": 3,
@@ -435,7 +435,7 @@
             "nome": "Prática Penal - Preparatório OAB",
             "instituicao": "public/assets/images/socioHumanas/3.png",
             "imagem": "Kultivi ",
-            "link": "https://kultivi.com/cursos/oab/pratica-penal-2a-fase-oab"
+            "link": "https://Kultivi.com/cursos/oab/pratica-penal-2a-fase-oab"
         },
         {
             "id": 4,
@@ -515,7 +515,7 @@
             "id": 3,
             "area": "Engenharia e Produção",
             "nome": "Cálculo Técnico",
-            "instituicao": "",
+            "instituicao": "IFRS",
             "imagem": "public/assets/images/engenharias/3.png",
             "link": "https://aprendamais.mec.gov.br/enrol/index.php?id=1864"
         },
@@ -531,9 +531,9 @@
             "id": 5,
             "area": "Engenharia e Produção",
             "nome": "Curso de AutoCAD Completo",
-            "instituicao": "kultivi",
+            "instituicao": "Kultivi",
             "imagem": "public/assets/images/engenharias/5.jpg",
-            "link": "https://kultivi.com/cursos/negocios/autocad-essencial#google_vignette"
+            "link": "https://Kultivi.com/cursos/negocios/autocad-essencial#google_vignette"
         },
         {
             "id": 6,
