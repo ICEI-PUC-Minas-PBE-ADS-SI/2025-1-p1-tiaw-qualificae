@@ -16,6 +16,7 @@ A falta de emprego é um dos maiores desafios enfrentados pela sociedade atual. 
 * Emanuelle Barbosa Henrique
 * Júlio César Vieira Santos
 * Victor Hugo Ribeiro
+* Caio Neri Fonseca Lacerda
 
 
 ## Professor
