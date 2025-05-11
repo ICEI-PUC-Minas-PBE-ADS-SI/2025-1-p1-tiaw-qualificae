@@ -13,10 +13,10 @@ A falta de emprego é um dos maiores desafios enfrentados pela sociedade atual. 
 
 * Arthur Moreira Silva
 * Beatriz Vaz Keppel
+* Caio Neri Fonseca Lacerda
 * Emanuelle Barbosa Henrique
 * Júlio César Vieira Santos
 * Victor Hugo Ribeiro
-* Caio Neri Fonseca Lacerda
 
 
 ## Professor
