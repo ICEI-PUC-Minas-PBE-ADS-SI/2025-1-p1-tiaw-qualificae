@@ -31,3 +31,53 @@
     color: black;
 }
 
+/* Borda e cor padrão dos botões */
+.category-btn {
+  border: 2px solid #47759B !important;
+  color: #47759B;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Quando o botão está ativo/selecionado */
+.category-btn.active {
+  background-color: #47759B;
+  color: white;
+  border-color: #47759B;
+}
+
+/* Opcional: hover com leve preenchimento */
+.category-btn:hover {
+  background-color: #47759B;
+  color: white;
+}
+
+/* Estilo padrão dos botões */
+.category-btn {
+  border: 2px solid #47759B !important;
+  color: #47759B;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilo do botão quando está ativo (selecionado) */
+.category-btn.active {
+  background-color: #47759B;
+  color: white;
+  border-color: #47759B;
+}
+
+/* Efeito hover para todos os botões */
+.category-btn:hover {
+  background-color: #47759B;
+  color: white;
+}
+
+h2 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    align-items: center;
+}
+

@@ -433,8 +433,8 @@
             "id": 3,
             "area": "Ciências Sociais e Humanas",
             "nome": "Prática Penal - Preparatório OAB",
-            "instituicao": "public/assets/images/socioHumanas/3.png",
-            "imagem": "Kultivi ",
+            "instituicao": "Kultivi" ,
+            "imagem": "public/assets/images/socioHumanas/3.png",
             "link": "https://Kultivi.com/cursos/oab/pratica-penal-2a-fase-oab"
         },
         {
