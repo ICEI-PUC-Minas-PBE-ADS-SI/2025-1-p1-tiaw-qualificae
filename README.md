@@ -1,6 +1,6 @@
 # Qualificaê!
 
-`CURSOS: Tecnologia em Análise e Desenvolvimento de Sistemas e Sistema da Informação`
+`CURSOS: Tecnologia em Análise e Desenvolvimento de Sistemas e Sistemas de Informação`
 
 `DISCIPLINA: Trabalho Interdisciplinar Aplicações Web`
 
@@ -13,9 +13,11 @@ A falta de emprego é um dos maiores desafios enfrentados pela sociedade atual. 
 
 * Arthur Moreira Silva
 * Beatriz Vaz Keppel
+* Caio Neri Fonseca Lacerda
 * Emanuelle Barbosa Henrique
 * Júlio César Vieira Santos
 * Victor Hugo Ribeiro
+  
 
 
 ## Professor
