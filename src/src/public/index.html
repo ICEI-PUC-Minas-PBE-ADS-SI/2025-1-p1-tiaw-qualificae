@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Página Inicial</title>
+    <link href="./assets/css/style.css" rel="stylesheet"/>
+    <link href="./assets/css/home.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header>
+    <div id="header-container"></div>
+    <script>
+        fetch('../menu.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('header-container').innerHTML = html;
+            });
+    </script>
+</header>
+<main class="p-0">
+    <div class="text-center titulo-container">
+        <h1>
+            Transforme suas habilidades em oportunidades!
+        </h1>
+    </div>
+    <div class="cursos-container justify-content-center align-items-center d-flex">
+        <div>
+            <h3 class="subtitulo">
+                Se capacite para o mercado de trabalho!
+            </h3>
+            <p>
+                Aprimore suas habilidades com cursos gratuitos e pagos em diversas áreas.
+                Domine novas competências e aumente suas chances de conquistar a vaga dos seus sonhos!
+            </p>
+            <button class="btn btn-dark">
+                Saiba mais!
+            </button>
+        </div>
+        <div class="cursos-img">
+            <img
+                    alt="Imagem ilustrativa de cursos"
+                    height="313"
+                    src="./assets/images/imagem-cursos.png"
+                    width="313">
+        </div>
+    </div>
+    <div class="curriculo-container justify-content-center align-items-center d-flex">
+        <div class="curriculo-img">
+            <img
+                    alt="Imagem ilustrativa de currículo"
+                    height="313"
+                    src="./assets/images/imagem-curriculo.png"
+                    width="313">
+        </div>
+        <div class="text-end">
+            <h3 class="subtitulo">
+                Currículo pronto em segundos!
+            </h3>
+            <p>
+                Com base nas suas informações e habilidades, geramos um currículo profissional automaticamente.
+                Basta manter seu perfil atualizado e pronto: um currículo completo estará sempre ao seu alcance!
+            </p>
+            <button class="btn btn-dark">
+                Gere agora!
+            </button>
+        </div>
+    </div>
+
+</main>
+</body>
+</html>

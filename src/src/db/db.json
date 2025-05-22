@@ -1,0 +1,50 @@
+{
+  "titulo": "Gere seu currículo e construa sua próxima oportunidade!",
+  "fotoPerfil": {
+    "campo": "file",
+    "descricao": "Foto de perfil",
+    "aceita": "image/*"
+  },
+  "experienciaProfissional": {
+    "campo": "textarea",
+    "placeholder": "Ex trabalhei na empresa...",
+    "id": "descricao",
+    "label": "Experiência Profissional"
+  },
+  "habilidadesCompetencias": {
+    "campo": "textarea",
+    "placeholder": "Descreva suas habilidades...",
+    "name": "habilidades",
+    "label": "Habilidades e Competências"
+  },
+  "formacaoAcademica": {
+    "campo": "textarea",
+    "placeholder": "Formado na...",
+    "name": "Formação Acadêmica",
+    "label": "Formação Acadêmica"
+  },
+  "certificacoes": {
+    "campo": "textarea",
+    "placeholder": "Meus Certificados...",
+    "name": "Certificações",
+    "label": "Certificações"
+  },
+  "botoes": [
+    {
+      "texto": "Salvar",
+      "acao": "Redireciona para 'pagina-de-geracao-de-curriculo.html'"
+    }
+  ],
+  "menu": {
+    "logo": "../../assets/images/logo-branca.png",
+    "titulo": "Qualificaê!",
+    "itens": [
+      "Cursos",
+      "Currículos",
+      "Home",
+      "Sobre nós",
+      "Como funciona",
+      "Dicas"
+    ]
+  }
+}
