@@ -1,0 +1,28 @@
+.input-container {
+    position: relative;
+}
+
+.input-container textarea {
+    padding-left: 2.5rem;
+}
+
+.input-container .icon {
+    position: absolute;
+    top: 50%;
+    left: 0.75rem;
+    transform: translateY(-50%);
+    color: var(--bs-primary);
+    pointer-events: none;
+}
+
+.comentarios-container {
+    padding: 21px 289px 0;
+}
+
+.participe-container {
+    padding: 43px 289px 0;
+}
+
+.titulo-container {
+    padding: 62px 289px 0;
+}

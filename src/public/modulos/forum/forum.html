@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Fórum</title>
+    <link href="../../assets/css/style.css" rel="stylesheet"/>
+    <link href="../../assets/css/forum.css" rel="stylesheet"/>
+    <script src="../../assets/js/forum.js"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header>
+    <div id="header-container"></div>
+    <script>
+        fetch('../../../menu.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('header-container').innerHTML = html;
+            });
+    </script>
+</header>
+<main class="p-0">
+    <div class="titulo-container">
+        <h1 style="font-size: 48px">
+            Fórum
+        </h1>
+    </div>
+    <div
+            class="participe-container"
+            id="participe-container">
+        <h2 style="font-size: 24px; font-weight: 800">
+            Participe da discussão:
+        </h2>
+    </div>
+    <div
+            class="comentarios-container"
+            id="comentarios-container">
+
+    </div>
+</main>
+</body>
+</html>
