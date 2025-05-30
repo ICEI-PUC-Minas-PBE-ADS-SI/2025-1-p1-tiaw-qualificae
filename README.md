@@ -1,6 +1,6 @@
 # Qualificaê!
 
-`CURSOS: Tecnologia em Análise e Desenvolvimento de Sistemas e Sistema da Informação`
+`CURSOS: Tecnologia em Análise e Desenvolvimento de Sistemas e Sistemas de Informação`
 
 `DISCIPLINA: Trabalho Interdisciplinar Aplicações Web`
 
