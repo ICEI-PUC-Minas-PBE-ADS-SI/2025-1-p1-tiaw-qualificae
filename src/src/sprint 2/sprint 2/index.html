@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Carrossel Sobre Nós</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <div class="menu align-items-center nav justify-content-between bg-dark">
+            <object alt="Logotipo" height="70" type="image/png" data="logo-branca.png" width="127">
+                <img alt="Logotipo" height="70" src="logo-branca.png" width="127">
+            </object>
+            <span class="titulo text-white">
+                Qualificaê!
+            </span>
+            <a href="/modulos/login/login.html">
+                <i class="bi bi-person icone-login text-white"></i>
+            </a>
+        </div>
+        <div class="bg-dark nav-container">
+            <ul class="nav justify-content-between">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" href="#">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link">|</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Currículos</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link">|</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link">|</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link">|</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Como funciona</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link">|</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Dicas</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+
+    <main class="fundodentro">
+        <div class="carrossel">
+            <img src="caio.jpg" alt="foto 1" class="slide" style="display: block;">
+            <img src="arthur.jpg" alt="foto 2" class="slide">
+            <img src="bia.jpg" alt="foto 3" class="slide">
+            <img src="manu.jpg" alt="foto 4" class="slide">
+            <img src="victor.jpg" alt="foto 5" class="slide">
+            <img src="julio.jpg" alt="foto 6" class="slide">
+
+            <button class="prev" onclick="mudarSlide(-1)">&#10094;</button>
+            <button class="next" onclick="mudarSlide(1)">&#10095;</button>
+        </div>
+
+
+        <div class="texto">
+            <h2>Conheça o Qualificaê!</h2>
+            <h3>
+                Fundado por um grupo de estudantes da área de TI apaixonados por tecnologia e desenvolvimento
+                profissional,
+                o Qualificaê! nasceu da necessidade de uma ferramenta integrada que facilitasse a busca
+                por emprego e o aprimoramento contínuo.
+                Nossa jornada começou em 2025 e desde então temos trabalhado para oferecer uma plataforma
+                intuitiva e eficaz para todos os usuários.
+                No Qualificaê!, estamos dedicados a apoiar sua trajetória profissional.
+                Explore nossas funcionalidades, conecte-se com oportunidades e invista no seu desenvolvimento.
+                Estamos aqui para ajudá-lo a transformar suas habilidades em sucesso.
+            </h3>
+            <div class="botoes-container">
+                <button class="botao-qualificae" onclick="window.location.href='cursos.html'">
+                    <img src="cursos.jpg" alt="">
+                    <span>Explorar cursos</span>
+                </button>
+
+                <button class="botao-qualificae" onclick="window.location.href='curriculo.html'">
+                    <img src="curriculo.jpg" alt="">
+                    <span>Gerar currículo</span>
+                </button>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
