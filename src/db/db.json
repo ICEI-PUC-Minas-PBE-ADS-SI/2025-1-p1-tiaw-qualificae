@@ -1,32 +1,52 @@
 {
   "usuarios": [
     {
-      "id": 1,
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": "1",
+      "nome_completo": "Lucas Andrade",
+      "email": "lucas.andrade@example.com",
+      "senha": "lucas123",
+      "telefone": "(11) 91234-5678",
+      "data_nascimento": "1998-05-12",
+      "cidade": "São Paulo",
+      "linkedin": "https://linkedin.com/in/lucasandrade",
+      "fotoPerfil": "img/perfil1.jpg",
+      "experiencia": "2 anos como Desenvolvedor Front-End na WebTech.",
+      "habilidades": "HTML, CSS, JavaScript, React",
+      "formacaoAcademica": "Tecnólogo em Análise e Desenvolvimento de Sistemas - FIAP",
+      "certificacoes": "Certificação JavaScript Avançado (Alura)",
+      "favoritos": []
     },
     {
-      "id": 2,
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": "e9d3",
+      "nome_completo": "Emanuelle Barbosa Henrique",
+      "email": "henriquepsh938@gmail.com",
+      "senha": "manu2110",
+      "telefone": "(31) 99787-9005",
+      "data_nascimento": "2004-10-21",
+      "cidade": "Betim",
+      "linkedin": null,
+      "fotoPerfil": "img/default.jpg",
+      "experiencia": "",
+      "habilidades": "",
+      "formacaoAcademica": "",
+      "certificacoes": "",
+      "favoritos": []
     },
     {
-      "login": "rommel",
-      "senha": "123",
-      "nome": "Rommel",
-      "email": "rommel@gmail.com",
-      "id": 3
-    },
-    {
-      "login": "julio",
-      "senha": "29839244jT@",
-      "nome": "Júlio César",
-      "email": "julimcvss@gmail.com",
-      "id": 4
+      "id": "13e6",
+      "nome_completo": "teste",
+      "email": "teste@gmail.com",
+      "senha": "123456",
+      "telefone": "(31) 99898-5656",
+      "data_nascimento": "2000-01-01",
+      "cidade": "Betim",
+      "linkedin": null,
+      "fotoPerfil": "img/default.jpg",
+      "experiencia": "",
+      "habilidades": "",
+      "formacaoAcademica": "",
+      "certificacoes": "",
+      "favoritos": []
     }
   ]
 }
