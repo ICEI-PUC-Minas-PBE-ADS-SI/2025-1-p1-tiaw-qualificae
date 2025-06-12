@@ -4,13 +4,6 @@ A falta de emprego é um dos maiores desafios enfrentados pela sociedade atual. 
 
 Diante dessa realidade, surge o Qualificaê!, um sistema desenvolvido para auxiliar as pessoas por meio da capacitação profissional. Com o nosso projeto, buscamos proporcionar melhores condições para que os usuários possam conquistar empregos, empregos mais qualificados e condizentes com suas necessidades e expectativas. A plataforma oferece a indicação de cursos gratuitos para aprimoramento, além de ferramentas para a criação de currículos, facilitando o acesso ao mercado de trabalho e promovendo o desenvolvimento profissional de maneira acessível e eficiente.
 
-Nosso público-alvo é composto por diferentes perfis de profissionais, incluindo:
-
-- Pessoas desempregadas que precisam se capacitar para ingressar no mercado de trabalho
-- Pessoas empregadas que desejam aprimorar suas capacitações e manter-se competitivas;
-- Trabalhadores que buscam uma nova oportunidade de emprego;
-- Profissionais que desejam atuar como freelancers ou prestadores de serviços;
-
 Com base em pesquisas e dados fornecidos pelo IBGE, identificamos que o mercado de trabalho brasileiro conta com uma grande parcela de pessoas que necessitam de capacitação para melhorar suas condições profissionais. Nosso objetivo é fornecer um sistema intuitivo e eficiente, que facilite o acesso às informações e à qualificação necessária para avançar na carreira.
 
 O Qualificaê! busca ser uma ferramenta essencial para todos que desejam evoluir profissionalmente, oferecendo suporte desde a escolha do curso adequado até a elaboração de um currículo atrativo. Com isso, acreditamos que poderemos contribuir significativamente para a redução da taxa de desemprego e para a melhoria da qualidade da mão de obra no país.
@@ -36,7 +29,7 @@ Por meio das entrevistas, foi constatado que a grande maioria das pessoas buscam
 
 O mercado de trabalho por meio da qualificação profissional. O Qualificaê! tem como propósito facilitar o acesso a oportunidades de capacitação e aprimoramento, oferecendo recomendações de cursos gratuitos, além de ferramentas para a criação de currículos, promovendo um caminho mais acessível e eficiente para o desenvolvimento profissional.
 
-Objetivos Específicos
+Já os objetivos específicos são:
 
 - Criar uma plataforma intuitiva e acessível que permita aos usuários encontrarem cursos adequados às suas necessidades e objetivos profissionais.
 
