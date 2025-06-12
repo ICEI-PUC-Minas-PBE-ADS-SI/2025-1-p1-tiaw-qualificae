@@ -1,0 +1,185 @@
+
+/* Cards */
+.card {
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: black;
+}
+
+/* Estilo padrão dos botões */
+.category-btn {
+  border: 2px solid #47759B !important;
+  color: #47759B;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilo do botão quando está ativo (selecionado) */
+.category-btn.active {
+  background-color: #47759B;
+  color: white;
+  border-color: #47759B;
+}
+
+/* Efeito hover para todos os botões */
+.category-btn:hover {
+  background-color: #47759B;
+  color: white;
+}
+
+
+h2 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    align-items: center;
+}
+
+
+body{
+  background: #f2f2f2;
+  font-family: 'Inter';
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*________________________CAMPO DE PESQUISA__________________________________________/
+/* Grupo do input de pesquisa */
+.input-group {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px 16px 8px 8px;
+    border-radius: 10px;
+    gap: 8px;
+    width: 100%;
+}
+
+/* Ícone do input de pesquisa */
+.input-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 100%;
+    background-color: #003153;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Campo de input de pesquisa */
+.input-field {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+/* Remove a borda quando o campo está em foco */
+.input-field:focus {
+    outline: none;
+}
+
+/* Lista de itens */
+.items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    background-color: #fff;
+    list-style: none;
+    border-radius: 24px;
+    width: 350px;
+    padding: 14px;
+    gap: 12px;
+    max-height: 421px;
+    overflow-y: auto;
+}
+
+/* Item individual da lista */
+.item {
+    display: flex;
+    gap: 12px;
+}
+
+
+/* Título do item */
+.item-title {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Mensagem "nenhum resultado encontrado" */
+#no_results {
+    display: none;
+    text-align: center;
+}
+
+
+
