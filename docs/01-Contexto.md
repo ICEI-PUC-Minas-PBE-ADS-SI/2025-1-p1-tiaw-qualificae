@@ -2,7 +2,7 @@
 
 A falta de emprego é um dos maiores desafios enfrentados pela sociedade atual. O mercado de trabalho exige cada vez mais qualificação dos profissionais, tornando essencial o acesso a oportunidades de aprendizado e aprimoramento. Muitas pessoas encontram dificuldades para se inserir ou se recolocar no mercado devido principalmente à falta de capacitação adequada.
 
-Diante dessa realidade, surge o Qualificaê!, um sistema desenvolvido para auxiliar as pessoas por meio da capacitação profissional. Com o nosso projeto, buscamos proporcionar melhores condições para que os usuários possam conquistar empregos, empregos mais qualificados e condizentes com suas necessidades e expectativas. A plataforma oferece a indicação de cursos gratuitos para aprimoramento, além de ferramentas para a criação de currículos, facilitando o acesso ao mercado de trabalho e promovendo o desenvolvimento profissional de maneira acessível e eficiente.
+Diante dessa realidade, surge o Qualificaê!, um sistema desenvolvido para auxiliar as pessoas por meio da capacitação profissional. Com o nosso projeto, buscamos proporcionar melhores condições para que os usuários possam conquistar empregos, empregos mais qualificados e condizentes com suas necessidades e expectativas. A plataforma oferece a indicação de cursos gratuitos para aprimoramento, além de ferramentas para a criação de currículos, facilitando o acesso ao mercado de trabalho e promovendo o desenvolvimento profissional de forma acessível.
 
 Com base em pesquisas e dados fornecidos pelo IBGE, identificamos que o mercado de trabalho brasileiro conta com uma grande parcela de pessoas que necessitam de capacitação para melhorar suas condições profissionais. Nosso objetivo é fornecer um sistema intuitivo e eficiente, que facilite o acesso às informações e à qualificação necessária para avançar na carreira.
 
@@ -10,6 +10,7 @@ O Qualificaê! busca ser uma ferramenta essencial para todos que desejam evoluir
 
 
 ## Problema
+
 A falta de emprego tem se tornado uma preocupação crescente no Brasil, impactando diretamente a qualidade de vida da população e a economia do país. Esse problema é resultado de uma série de fatores interligados, que vão desde mudanças no mercado de trabalho até a ausência de políticas públicas eficazes para qualificação profissional.
 Um dos principais desafios enfrentados é a existência de vagas não preenchidas devido à falta de mão de obra especializada. Empresas estão em busca de profissionais qualificados, mas muitos candidatos não atendem aos requisitos exigidos. Essa situação é agravada pela redução de postos de trabalho, motivada por crises econômicas e inflação.
 
@@ -47,7 +48,6 @@ Já os objetivos específicos são:
 A maior motivação que tivemos para desenvolver e trabalhar nessa aplicação com o tema “Falta de emprego” foi ver as diversas formas que isso se expressa no dia a dia. É um tema abrangente, não necessariamente foca somente no ponto da falta de emprego, há uma variedade de opções para tratar, entender e resolver o problema. Através de algumas pesquisas de campo, conseguimos entender nosso público alvo e definir alguns objetivos com nossa aplicação, que trouxe as motivações necessárias para o projeto ser realizado. 
 Por meio das entrevistas, foi constatado que a grande maioria das pessoas buscam meios de se qualificar para oportunidades de trabalho, mas não sabem como fazer e/ou onde fazer. Além disso, a questão financeira é um fator limitante para muitas dessas pessoas, impedindo-as de acessar cursos e treinamentos essenciais para seu desenvolvimento profissional. Conversando com pessoas que trabalham em áreas de Recursos Humanos e que fazem busca e contratação de profissionais para as empresas, foi possível notar que muitas vezes há sim vagas de emprego, mas os perfis dos candidatos não atende os requisitos necessários. Outra situação que foi apontada é que muitas vezes os currículos recebidos são poucos objetivos ou relacionados às vagas, essa informação converge com o que outros entrevistados responderam sobre saber montar um currículo direcionado para as vagas certas. 
 Com base nisso, optamos por solucionar os principais problemas identificados nas entrevistas. Dessa forma resolveria o conflito entre o contratante e o candidato, ajudando as pessoas que precisam de qualificações a encontrá-las e quem não sabe preparar um currículo poderá obtê-lo. Consequentemente, isso também ajudaria as empresas contratantes a encontrar os melhores candidatos qualificados para preencher suas vagas disponíveis. 
-
 
 
 ## Público-alvo
