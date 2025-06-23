@@ -20,13 +20,14 @@
       "nome": "Rommel",
       "email": "rommel@gmail.com",
       "id": 3
-    },
+    }
+  ],
+  "forum": [
     {
-      "login": "julio",
-      "senha": "29839244jT@",
-      "nome": "Júlio César",
-      "email": "julimcvss@gmail.com",
-      "id": 4
+      "id": 1,
+      "id_usuario": 1,
+      "usuario": "Administrador do Sistema",
+      "comentario": "Olá! Este espaço é dedicado para interações entre os usuários. Para participar da discussão, basta enviar uma mensagem!"
     }
   ]
 }
