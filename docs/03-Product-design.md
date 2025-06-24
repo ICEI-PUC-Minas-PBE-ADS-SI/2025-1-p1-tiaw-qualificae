@@ -43,9 +43,13 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | RF-004 | O sistema deve permitir gerar um currículo                 |  ALTA      |
 | RF-005 | O sistema deve permitir incluir informações do currículo   |  ALTA      |
 | RF-006 | O sistema deve permitir editar as informações do currículo |  MÉDIA     |
-| RF-007 | O sistema deve permitir excluir o currículo                |  MÉDIA     |
-| RF-008 | O sistema deve permitir acessar as dicas disponíveis       |  MÉDIA     |
-| RF-009 | O sistema deve adicionar mais cursos na aba de cursos      |  BAIXA     |
+| RF-007 | O sistema deve permitir favoritar os cursos                |  ALTA      |
+| RF-008 | O sistema deve permitir o usuário a visualizar os favoritos|  MÉDIA     |
+| RF-009 | O sistema deve permitir pesquisar cursos por nome          |  BAIXA     |
+| RF-010 | O sistema deve permitir avaliar o site                     |  BAIXA     |
+| RF-011 | O sistema deve permitir fazer comentários no fórum         |  MÉDIA     |
+| RF-012 | O sistema deve permitir dar like e deslike nos comentários |  MÉDIA     |
+| RF-013 | O sistema deve permitir remover curso dos favoritos        |  MÉDIA     |
 
 ### Requisitos não funcionais
 
