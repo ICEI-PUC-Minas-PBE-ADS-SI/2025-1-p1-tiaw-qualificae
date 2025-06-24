@@ -1,0 +1,75 @@
+h1 {
+            text-align: center;
+            margin-top: 130px;
+        }
+
+        .btn-salvar {
+            background-color: #003366;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            text-align: right;
+            margin-right: 170px;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-left: 120px;
+            margin-top: 30px;
+        }
+
+        .upload-btn {
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 170px;
+        }
+
+        #foto-preview {
+            margin-top: 20px;
+            max-width: 150px;
+            border-radius: 50%;
+        }
+
+        .descricao-container {
+            text-align: right;
+            margin-top: 30px;
+        }
+
+        textarea {
+            width: 50%;
+            height: 120px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: vertical;
+        }
+
+        h3 {
+            text-align: right;
+            margin-right: 120px;
+            margin-top: -90px;
+        }
+
+        h4 {
+            margin-left: 120px;
+            margin-top: 80px;
+        }
+
+        h5 {
+            text-align: right;
+            margin-right: 150px;
+            margin-top: -160px;
+        }
+
+        h6 {
+            margin-left: 150px;
+            margin-top: 130px;
+            font-size: 24px;
+        }
