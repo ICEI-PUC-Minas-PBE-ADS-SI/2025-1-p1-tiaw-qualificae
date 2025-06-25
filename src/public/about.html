@@ -1,30 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/login.js"></script>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Sobre Nós</title>
+    <link href="../../assets/css/style.css" rel="stylesheet"/>
+    <link href="../../assets/css/sobre.css" rel="stylesheet"/>
+    <script src="../../assets/js/sobre.js"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <div class="banner"><img src="assets/images/banner_ti.png" alt=""></div>
-        <div class="barra-info">
-            <nav class="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">Sobre nós</a></li>
-                </ul>
-            </nav>
-            <div class="dados-usuario">
-                <span id="userInfo"></span>
+<header>
+    <div id="header-container"></div>
+    <script>
+        fetch('../menu.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('header-container').innerHTML = html;
+            });
+    </script>
+</header>
+
+<main class="bg-dark border-top border-white">
+    <div
+            class="card p-4 m-5">
+        <div class="card-body container">
+            <div class="row">
+                <div class="col-6 position-relative">
+                    <div class="carrossel h-100 d-flex align-items-center">
+                        <img alt="foto 1" class="slide" src="assets/images/caio.jpg" style="display: block;">
+                        <img alt="foto 2" class="slide" src="assets/images/arthur.jpg">
+                        <img alt="foto 3" class="slide" src="assets/images/bia.jpg">
+                        <img alt="foto 4" class="slide" src="assets/images/manu.jpg">
+                        <img alt="foto 5" class="slide" src="assets/images/victor.jpg">
+                        <img alt="foto 6" class="slide" src="assets/images/julio.jpg">
+
+                        <button class="prev icon-button text-primary" onclick="mudarSlide(-1)">
+                            <i class="bi bi-chevron-left icon"></i>
+                        </button>
+                        <button class="next icon-button text-primary" onclick="mudarSlide(1)">
+                            <i class="bi bi-chevron-right icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div
+                        style="letter-spacing: -0.72px;"
+                        class="col-6 card-text">
+                    <p style="font-weight: 800">
+                        Conheça o Qualificaê!
+                    </p>
+                    <br>
+                    <p>
+                        Fundado por um grupo de estudantes da área de TI apaixonados por tecnologia e desenvolvimento
+                        profissional,
+                        o Qualificaê! nasceu da necessidade de uma ferramenta integrada que facilitasse a busca
+                        por emprego e o aprimoramento contínuo.
+                        Nossa jornada começou em 2025 e desde então temos trabalhado para oferecer uma plataforma
+                        intuitiva e eficaz para todos os usuários.
+                        No Qualificaê!, estamos dedicados a apoiar sua trajetória profissional.
+                        Explore nossas funcionalidades, conecte-se com oportunidades e invista no seu desenvolvimento.
+                        Estamos aqui para ajudá-lo a transformar suas habilidades em sucesso.
+                    </p>
+                    <div class="d-flex gap-4">
+                        <button class="btn btn-dark py-4 w-100 d-flex flex-column align-content-center rounded-lg"
+                                onclick="window.location.href='modulos/cursos/cursos.html'">
+                            <div>
+
+                                <img
+                                        height="77"
+                                        src="assets/images/cursos.png"
+                                        width="77">
+                            </div>
+                            <div>
+                                <span>Explorar cursos</span>
+                            </div>
+                        </button>
+
+                        <button class="btn btn-primary py-4 w-100 d-flex flex-column align-content-center rounded-lg"
+                                onclick="window.location.href='modulos/curriculo/curriculo.html'">
+                            <div>
+                                <img
+                                        height="77"
+                                        src="assets/images/curriculo.png"
+                                        width="77">
+                            </div>
+                            <div>
+                                <span>Gerar currículo</span>
+                            </div>
+                        </button>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </header>
-    <main>
-        <h1>Sobre nós</h1>
-        <p>Página com informações sobre o site.</p>
-    </main>
+    </div>
+
+</main>
 </body>
 </html>
