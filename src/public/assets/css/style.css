@@ -41,6 +41,17 @@
         --bs-btn-active-border-color: var(--bs-primary);
     }
 
+    .btn-outline-dark {
+        padding: 16px 24px;
+        --bs-btn-color: var(--bs-dark);
+        --bs-btn-border-color: var(--bs-dark);
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: var(--bs-dark);
+        --bs-btn-hover-border-color: var(--bs-dark);
+        --bs-btn-active-bg: var(--bs-dark);
+        --bs-btn-active-border-color: var(--bs-dark);
+    }
+
     .form-control {
         border: var(--bs-border-width) solid var(--bs-border-color)
     }
