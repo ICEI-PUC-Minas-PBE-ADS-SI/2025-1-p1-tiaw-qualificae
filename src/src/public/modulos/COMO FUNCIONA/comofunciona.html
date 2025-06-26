@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Como Usar Nossas Ferramentas</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: inherit;
+            background-color: #0c3a5f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+
+        }
+
+        .container {
+            background-color: #fff;
+            margin-top: 15%;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            width: 80%;
+            max-width: 1000px;
+
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+
+        }
+
+
+        .blocos {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+
+        }
+
+
+        .bloco {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+
+        }
+
+        .bloco img {
+            display: block;
+            margin: 0 auto 20px;
+            height: 100px;
+        }
+
+        .bloco h3 {
+            text-align: center;
+            margin-bottom: 15px;
+
+        }
+
+        .bloco p {
+            text-align: justify;
+
+            font-size: 14px;
+
+        }
+
+        .btn {
+            display: block;
+            margin: 20px auto 0;
+            padding: 10px 20px;
+            background-color: #003366;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+
+        }
+
+
+        .btn:hover {
+            background-color: #00509e;
+        }
+    </style>
+
+
+<body>
+
+    <div class="container">
+ <div class="menu align-items-center nav justify-content-between bg-dark">
+        <object alt="Logotipo" height="70" type="image/png" data="../../assets/images/logo-branca.png" width="127">
+            <img alt="Logotipo" height="70" src="./assets/images/logo-branca.png" width="127">
+        </object>
+        <span class="titulo text-white">
+            Qualificaê!
+        </span>
+        <a href="/modulos/login/login.html">
+            <i class="bi bi-person icone-login text-white"></i>
+        </a>
+    </div>
+    <div class="bg-dark nav-container">
+        <ul class="nav justify-content-between">
+            <li class="nav-item">
+                <a aria-current="page" class="nav-link" href="#">Cursos</a>
+            </li>
+            <li class="nav-item">
+                <a aria-current="page" class="nav-link">|</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Currículos</a>
+            </li>
+            <li class="nav-item">
+                <a aria-current="page" class="nav-link">|</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a aria-current="page" class="nav-link">|</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+                <a aria-current="page" class="nav-link">|</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Como funciona</a>
+            </li>
+            <li class="nav-item">
+                <a aria-current="page" class="nav-link">|</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Dicas</a>
+            </li>
+        </ul>
+    </div>
+    <div class="navbar">
+
+        <h2>Como Usar Nossas Ferramentas</h2>
+
+
+        <div class="blocos">
+
+
+
+            <div class="bloco">
+
+                <img src="cursos .png" alt="Ícone Cursos">
+                <h3>Cursos</h3>
+                <p>
+                    O Qualificaê é uma plataforma gratuita que conecta você às melhores opções de cursos de diversas
+                    áreas acadêmicas. Com uma interface intuitiva, oferecemos filtros por área de interesse,
+                    permitindo
+                    que você encontre facilmente o curso ideal para seu desenvolvimento profissional e acadêmico.
+                </p>
+                <p>Basta selecionar a área desejada, explorar as opções disponíveis e escolher o curso que mais se
+                    adequa às suas necessidades. Navegue à vontade entre as múltiplas opções e aproveite o acesso
+                    livre
+                    e gratuito a uma vasta gama de conteúdos educativos.</p>
+
+                <button class="btn">Explorar cursos!</button>
+            </div>
+
+            <div class="bloco">
+                <img src="curriculo.png" alt="Ícone Currículo">
+                <h3>Gerar currículo</h3>
+                <p>
+                    Frustrado por encaminhar currículos a várias empresas sem obter retorno, ou pior, nem sequer ter
+                    a
+                    chance de ser analisado devido ao descarte automático pelas inteligências artificiais? O nosso
+                    criador de currículos é desenvolvido com os critérios mais relevantes utilizados por
+                    recrutadores e
+                    pelas ferramentas de lA.
+                </p>
+                <p>Utilize esta ferramenta de maneira fácil; preencha os campos com as informações solicitadas. Se
+                    surgir alguma dúvida sobre o preenchimento, basta se basear no nosso exemplo. Após concluir,
+                    salve
+                    suas informações e solicite a geração do seu currículo. Você receberá o arquivo em formato PDF,
+                    pronto para ser compartilhado e utilizado nas oportunidades que desejar.</p>
+                <button class="btn">Gere seu currículo!</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
