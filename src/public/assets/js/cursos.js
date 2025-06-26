@@ -11,7 +11,7 @@ function loadCourses(categoria, termoBusca = "") {
     container.innerHTML = "";
 
     // Busca os dados do JSON Server
-    fetch("http://localhost:3001/curso")
+    fetch("http://localhost:3000/curso")
         .then(response => response.json())
         .then(data => {
             // Verifica se a categoria existe no JSON
