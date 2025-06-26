@@ -1,13 +1,14 @@
 // Variável global para armazenar a categoria atual
 //A Tela começa com a categoria Negócios
 let categoriaAtual = "negocios";
+const API_CURSOS_URL = '/curso'
 
 // Função para carregar cursos com filtro por nome
 function loadCourses(categoria, termoBusca = "") {
     const container = document.getElementById("cursos-container");
     container.innerHTML = "";
 
-    fetch("http://localhost:3000/curso")
+    fetch(API_CURSOS_URL)
         .then(response => response.json())
         .then(data => {
             // Verifica se a categoria existe no objeto de dados
@@ -33,13 +34,18 @@ function loadCourses(categoria, termoBusca = "") {
                     card.className = "card h-100 shadow";
 
                     card.innerHTML = `
-                        <img src="${curso.imagem}" class="card-img-top" alt="${curso.nome}">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title text-center">${curso.nome}</h5>
-                            <p class="card-text">${curso.instituicao}</p>
-                            <a href="${curso.link}" class="btn btn-primary mt-auto" target="_blank">Saiba Mais</a>
-                        </div>
-                    `;
+                            <img src="${curso.imagem}" class="card-img-top" alt="${curso.nome}">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title text-center">${curso.nome}</h5>
+                                <p class="card-text">${curso.instituicao}</p>
+                                <div class="d-flex justify-content-between align-items-center mt-auto">
+                                    <a href="${curso.link}" class="btn btn-primary flex-grow-1 me-2" target="_blank">Saiba Mais</a>
+                                    <button class="btn btn-link p-0 text-primary save-btn" title="Salvar">
+                                        <i class="bi bi-bookmark fs-4"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        `;
 
                     col.appendChild(card);
                     row.appendChild(col);
@@ -75,5 +81,5 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("search-input").addEventListener("input", (e) => {
         const termoBusca = e.target.value;
         loadCourses(categoriaAtual, termoBusca);
-    });
+    });
 });

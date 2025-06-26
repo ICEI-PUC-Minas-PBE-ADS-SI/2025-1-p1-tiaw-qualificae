@@ -61,9 +61,7 @@ h2 {
     align-items: center;
 }
 
-
 body{
-  background: #f2f2f2;
   font-family: 'Inter';
 }
 
@@ -110,30 +108,6 @@ body{
 }
 
 /*________________________CAMPO DE PESQUISA__________________________________________/
-/* Grupo do input de pesquisa */
-.input-group {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    background-color: #fff;
-    padding: 8px 16px 8px 8px;
-    border-radius: 10px;
-    gap: 8px;
-    width: 100%;
-}
-
-/* Ícone do input de pesquisa */
-.input-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 32px;
-    min-height: 32px;
-    border-radius: 100%;
-    background-color: #003153;
-    color: #fff;
-    cursor: pointer;
-}
 
 /* Campo de input de pesquisa */
 .input-field {
@@ -181,5 +155,9 @@ body{
     text-align: center;
 }
 
-
+.btn-info{
+  background-color: #003153;
+  color: white;
+  border-color:#003153;
+}
 
