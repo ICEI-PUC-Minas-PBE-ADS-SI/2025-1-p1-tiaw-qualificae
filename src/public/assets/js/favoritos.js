@@ -1,7 +1,16 @@
+const API_USUARIOS_URL = '/usuarios';
+var usuarioLogado;
+const usuarioCorrente = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+
+async function obterUsuarioDb(id) {
+    const response = await fetch(`${API_USUARIOS_URL}/${id}`);
+    usuarioLogado = await response.json();
+}
+
 // Espera o site carregar pra começar a rodar o código
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
+    await obterUsuarioDb();
     const cursosContainer = document.getElementById("cursos-container"); // Onde os cards dos cursos vão aparecer
-    const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado")); // Pega o usuário logado no localStorage
 
     // Se não tiver ninguém logado, mostra um aviso e um botão pra fazer login
     if (!usuarioLogado) {
@@ -21,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 async function carregarFavoritos(usuarioId, container) {
     try {
         // Pega os dados do usuário no backend (JSON server)
-        const response = await fetch(`http://localhost:3000/usuarios/${usuarioId}`);
+        const response = await fetch(`${API_USUARIOS_URL}/${usuarioId}`);
         if (!response.ok) {
             throw new Error('Falha ao carregar os dados do usuário.');
         }
@@ -91,7 +100,7 @@ function adicionarListenersRemocao(usuarioId, container) {
 
             try {
                 // Busca os dados atualizados do usuário
-                const userResponse = await fetch(`http://localhost:3000/usuarios/${usuarioId}`);
+                const userResponse = await fetch(`${API_USUARIOS_URL}/${usuarioId}`);
                 if (!userResponse.ok) throw new Error("Não foi possível buscar dados do usuário.");
                 const usuario = await userResponse.json();
 
@@ -99,12 +108,12 @@ function adicionarListenersRemocao(usuarioId, container) {
                 const favoritosAtualizados = usuario.favoritos.filter(fav => fav.nome !== cursoNomeParaRemover);
 
                 // Manda a lista nova pro json server
-                const patchResponse = await fetch(`http://localhost:3000/usuarios/${usuarioId}`, {
+                const patchResponse = await fetch(`${API_USUARIOS_URL}/${usuarioId}`, {
                     method: "PATCH",
                     headers: {
                         "Content-Type": "application/json"
                     },
-                    body: JSON.stringify({ favoritos: favoritosAtualizados })
+                    body: JSON.stringify({favoritos: favoritosAtualizados})
                 });
 
                 if (!patchResponse.ok) throw new Error("Não foi possível atualizar os favoritos no servidor.");

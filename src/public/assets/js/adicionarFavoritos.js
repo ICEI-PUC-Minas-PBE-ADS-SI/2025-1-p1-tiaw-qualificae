@@ -1,7 +1,19 @@
 // === adicionarFavoritos.js ===
+const API_USUARIOS_URL = '/usuarios';
+var usuarioLogado;
+const usuarioCorrente = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
 
-document.addEventListener("DOMContentLoaded", () => {
+async function obterUsuarioDb(id) {
+    const response = await fetch(`${API_USUARIOS_URL}/${id}`);
+    usuarioLogado = await response.json();
+}
+
+document.addEventListener("DOMContentLoaded", async () => {
+    await obterUsuarioDb();
+
     document.addEventListener("click", async function (e) {
+        await obterUsuarioDb(usuarioCorrente.id);
+
         if (e.target.closest(".save-btn")) {
             const button = e.target.closest(".save-btn");
             const card = button.closest(".card");
@@ -16,8 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 area: obterCategoriaAtual(),
                 id: gerarIdDoCurso(card) // Gera um ID único para o curso favoritado
             };
-
-            const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
             
             //Se não achar usuario logado mostra a mensagem 
             if (!usuarioLogado) {
@@ -27,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             try {
                 // Busca os dados do usuário
-                const response = await fetch(`http://localhost:3000/usuarios/${usuarioLogado.id}`);
+                const response = await fetch(`${API_USUARIOS_URL}/${usuarioLogado.id}`);
                 if (!response.ok) {
                     throw new Error(`Erro ao buscar usuário: ${response.statusText}`);
                 }
@@ -57,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
 
                 // Atualiza os dados do usuário no json server com a nova lista de favoritos
-                const updateResponse = await fetch(`http://localhost:3000/usuarios/${usuario.id}`, {
+                const updateResponse = await fetch(`${API_USUARIOS_URL}/${usuario.id}`, {
                     method: "PATCH", // PATCH atualiza apenas os campos enviados
                     headers: {
                         "Content-Type": "application/json"

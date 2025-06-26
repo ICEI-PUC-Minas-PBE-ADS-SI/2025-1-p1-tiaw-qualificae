@@ -34,7 +34,7 @@ function loadCourses(categoria, termoBusca = "") {
                 // Cria os cards para os cursos encontrados
                 cursosFiltrados.forEach(curso => {
                     const col = document.createElement("div");
-                    col.className = "col-12 col-sm-6 col-md-6 col-lg-3 mb-4"; // Responsividade
+                    col.className = "col-12 col-md-6 col-lg-3 mb-4"; // Responsividade
 
                     const card = document.createElement("div");
                     card.className = "card h-100 shadow"; // Define a altura e sombra do card
