@@ -30,6 +30,10 @@
         --bs-btn-active-border-color: var(--bs-primary);
     }
 
+    .btn-secondary {
+        padding: 16px 24px;
+    }
+
     .btn-outline-primary {
         padding: 16px 24px;
         --bs-btn-color: var(--bs-primary);

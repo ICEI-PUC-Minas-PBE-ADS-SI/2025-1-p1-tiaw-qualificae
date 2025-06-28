@@ -35,3 +35,9 @@
 .titulo-container {
     padding: 62px 289px;
 }
+
+#botao-avaliar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
