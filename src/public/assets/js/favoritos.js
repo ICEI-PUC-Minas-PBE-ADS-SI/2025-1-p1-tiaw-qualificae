@@ -9,7 +9,7 @@ async function obterUsuarioDb(id) {
 
 // Espera o site carregar pra começar a rodar o código
 document.addEventListener("DOMContentLoaded", async () => {
-    await obterUsuarioDb();
+    await obterUsuarioDb(usuarioCorrente.id);
     const cursosContainer = document.getElementById("cursos-container"); // Onde os cards dos cursos vão aparecer
 
     // Se não tiver ninguém logado, mostra um aviso e um botão pra fazer login
@@ -56,7 +56,7 @@ async function carregarFavoritos(usuarioId, container) {
         // Para cada curso favorito, monta um card e coloca na tela
         favoritos.forEach(curso => {
             const col = document.createElement("div");
-            col.className = "col-12 col-sm-6 col-md-6 col-lg-3 mb-4";
+            col.className = "col-12 col-md-6 col-lg-3 mb-4";
             col.setAttribute('data-curso-card-id', curso.id); // Marca o ID do curso no elemento
 
             // Monta o HTML do card do curso

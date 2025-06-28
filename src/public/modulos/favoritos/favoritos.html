@@ -19,78 +19,21 @@
 </head>
 
 <body>
-    <!--Carrega o menu superior-->
-    <header>
-        <div class="menu align-items-center nav justify-content-between bg-dark">
-            <!-- Logotipo -->
-            <object alt="Logotipo" height="70" type="image/png" data="../../assets/images/logo-branca.png" width="127">
-                <img alt="Logotipo" height="70" src="../../assets/images/logo-branca.png" width="127">
-            </object>
-
-
-            <!-- Título -->
-            <span class="titulo text-white">Qualificaê!</span>
-
-            <!-- Botões com ações -->
-            <div class="d-flex align-items-center gap-3 me-3">
-                <!-- Botão de favoritos em branco -->
-                <a href="favoritos.html" title="Meus Favoritos" id="favoritos-btn">
-                    <i class="bi bi-bookmark-heart-fill fs-4 text-white"></i>
-                </a>
-
-                <!-- Botão de login -->
-                <a href="../login/login.html" title="Login">
-                    <i class="bi bi-person icone-login text-white fs-4"></i>
-                </a>
-            </div>
-        </div>
-
-        <!--Algumas funções já estão ligadas mas nem todas estão 100$ funcionais-->
-        <div class="bg-dark nav-container">
-            <ul class="nav justify-content-between">
-                <li class="nav-item">
-                    <a aria-current="page" class="nav-link" href="../cursos/cursos.html">Cursos</a>
-                </li>
-                <li class="nav-item">
-                    <a aria-current="page" class="nav-link">|</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Currículos</a>
-                </li>
-                <li class="nav-item">
-                    <a aria-current="page" class="nav-link">|</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a aria-current="page" class="nav-link">|</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Sobre nós</a>
-                </li>
-                <li class="nav-item">
-                    <a aria-current="page" class="nav-link">|</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Como funciona</a>
-                </li>
-                <li class="nav-item">
-                    <a aria-current="page" class="nav-link">|</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Dicas</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-
-    <!--titulo-->
-    <div>
+<header>
+    <div id="header-container"></div>
+    <script>
+        fetch('../../../menu.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('header-container').innerHTML = html;
+            });
+    </script>
+</header>
+    <div class="mt-4">
         <h2 class="fs-1 text-center">Meus Favoritos</h2>
     </div>
 
-    <main id="cursos-container" class="p-0">
+    <main id="cursos-container" class="container">
         <!-- Aqui o javascript vai injetar os cards -->
     </main>
 
