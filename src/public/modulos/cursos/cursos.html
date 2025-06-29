@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Cursos</title>
+    <link href="../../assets/css/style.css" rel="stylesheet" />
+    <link href="../../assets/css/cursos.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Link para o CSS do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <div class="menu align-items-center nav justify-content-between bg-dark">
+            <!-- Logotipo -->
+            <object alt="Logotipo" height="70" type="image/png" data="../../assets/images/logo-branca.png" width="127">
+                <img alt="Logotipo" height="70" src="../../assets/images/logo-branca.png" width="127">
+            </object>
+
+            <!-- Título -->
+            <span class="titulo text-white">Qualificaê!</span>
+
+            <!-- Ações (login + favoritos) -->
+            <div class="d-flex align-items-center gap-3 me-3">
+                <!-- Botão de favoritos em branco -->
+                <a href="../favoritos/favoritos.html" id="favoritos-btn" title="Meus Favoritos">
+                    <i class="bi bi-bookmark-heart-fill fs-4 text-white"></i>
+                </a>
+
+                <!-- Botão de login -->
+                <a href="../login/login.html" title="Login">
+                    <i class="bi bi-person icone-login text-white fs-4"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="bg-dark nav-container">
+            <ul class="nav justify-content-between">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" href="cursos.html">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link">|</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Currículos</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link">|</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link">|</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link">|</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Como funciona</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link">|</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Dicas</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div>
+        <h2 class="fs-1 text-center">As habilidades que você precisa estão aqui!</h2>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="d-flex flex-wrap justify-content-center gap-2 my-3">
+            <button class="btn btn-outline-secondary category-btn " data-category="negocios">Administração, negócios e
+                serviços</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="artistico">Artes e Design</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="biologicas">Ciências Biológicas e da
+                Terra</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="tecnologia">Análise e Desenvolvimento
+                de Sistemas</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="socioHumanas">Ciências sociais e
+                humanas</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="comunicacao">Comunicação e
+                informação</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="engenharias">Engenharia e
+                produção</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="saude">Saúde e Bem-estar</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="linguagens">Conhecimentos Gerais e
+                Linguagens</button>
+        </div>
+    </nav>
+
+    <div id="container">
+        <div id="search-results">
+
+            <!-- Input de pesquisa -->
+            <div class="input-group">
+                <!-- Ícone da lupa -->
+                <div class="input-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <!-- Campo de input de pesquisa -->
+                <input type="text" id="search-input" class="form-control w-50" placeholder="Pesquisar cursos"   />
+            </div>
+
+            <!-- Mensagem "nenhum resultado encontrado" -->
+            <div id="no_results">
+                <p>Nenhum resultado encontrado</p>
+            </div>
+        </div>
+    </div>
+
+
+    <main id="cursos-container" class="p-0">
+        <!-- Aqui o JavaScript vai injetar os cards -->
+    </main>
+
+
+    <script src="../../assets/js/cursos.js"></script>
+    <script src="../../assets/js/adicionarFavoritos.js"></script>
+
+
+</body>
+
+</html>
