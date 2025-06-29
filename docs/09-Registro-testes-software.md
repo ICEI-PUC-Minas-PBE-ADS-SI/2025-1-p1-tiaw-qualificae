@@ -70,5 +70,5 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 
 
 ## Avaliação
-
+Os testes realizados trouxeram em sua grande maioria resultados positivos, alguns erros de processamento e conexões foram encontrados, mas já foram resolvidos. Todos os testes foram executados de forma conjunta com toda equipe de desenvolvedores, assim a cada reunião onde algum possível erro fosse encontrado algo longo do desenvolvimento do projeto ele era resolvido. Para que na versão final desse projeto os erros e possíveis bugs fossem mínimos. 
 
