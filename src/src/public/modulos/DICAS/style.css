@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+
+}
+
+h2 {
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 210%;
+}
+
+h3 {
+    font-family: inherit;
+    font-size: 110%;
+    margin-left: 5%;
+}
+
+h4 {
+    font-family: inherit;
+    font-size: 110%;
+    margin-left: 5%;
+}
+
+h5 {
+    margin-top: 7%;
+    margin-left: 10%;
+    font-size: 210%;
+
+}
+
+h6 {
+    font-family:inherit;
+    font-size: 110%;
+    margin-left: 5%;
+}
+
+li {
+    font-family: inherit;
+    font-size: 110%;
+    margin-left: 5%;
+    font-weight: bold;
+}
