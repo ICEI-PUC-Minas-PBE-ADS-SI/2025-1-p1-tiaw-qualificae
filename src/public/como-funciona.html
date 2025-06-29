@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Como Usar Nossas Ferramentas</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Fórum</title>
+    <link href="../../assets/css/style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+
+    <style>
+        .container {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+
+        }
+
+
+        .blocos {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+
+        }
+
+
+        .bloco {
+            min-width: 300px;
+            padding: 20px;
+
+        }
+
+        .bloco img {
+            display: block;
+            margin: 0 auto 20px;
+            height: 100px;
+        }
+
+        .bloco h3 {
+            text-align: center;
+            margin-bottom: 15px;
+
+        }
+    </style>
+
+
+<body class="bg-dark">
+<header>
+    <div id="header-container"></div>
+    <script>
+        fetch('../../../menu.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('header-container').innerHTML = html;
+            });
+    </script>
+</header>
+<div class="container p-3 mt-4">
+    <div class="mt-4">
+    <p
+            class="text-center"
+            style="font-weight: 800">Como Usar Nossas Ferramentas</p>
+    </div>
+
+
+    <div class="row">
+
+
+        <div
+                style="padding: 20px 131px"
+                class="col-12 col-md-6 text-justify">
+
+            <p style="font-weight: 800" class="text-center">Cursos</p>
+            <div class="d-flex justify-content-center">
+            <img
+                    height="177"
+                    width="177"
+                    alt="Ícone Cursos"
+                    src="assets/images/cursos.png">
+            </div>
+            <p>
+                O Qualificaê é uma plataforma gratuita que conecta você às melhores opções de cursos de diversas
+                áreas acadêmicas. Com uma interface intuitiva, oferecemos filtros por área de interesse,
+                permitindo
+                que você encontre facilmente o curso ideal para seu desenvolvimento profissional e acadêmico.
+            </p>
+            <p>Basta selecionar a área desejada, explorar as opções disponíveis e escolher o curso que mais se
+                adequa às suas necessidades. Navegue à vontade entre as múltiplas opções e aproveite o acesso
+                livre
+                e gratuito a uma vasta gama de conteúdos educativos.</p>
+
+            <button
+                    onclick="window.location.href = 'modulos/cursos/cursos.html'"
+                    class="btn btn-dark">Explorar cursos!</button>
+        </div>
+
+        <div
+                style="padding: 20px 131px"
+                class="col-12 col-md-6 text-justify">
+            <p class="text-center" style="font-weight: 800">Gerar currículo</p>
+            <div class="d-flex justify-content-center">
+            <img
+                    height="177"
+                    width="177"
+                    alt="Ícone Currículo"
+                    src="assets/images/curriculo.png">
+            </div>
+            <p>
+                Frustrado por encaminhar currículos a várias empresas sem obter retorno, ou pior, nem sequer ter
+                a
+                chance de ser analisado devido ao descarte automático pelas inteligências artificiais? O nosso
+                criador de currículos é desenvolvido com os critérios mais relevantes utilizados por
+                recrutadores e
+                pelas ferramentas de lA.
+            </p>
+            <p>Utilize esta ferramenta de maneira fácil; preencha os campos com as informações solicitadas. Se surgir alguma dúvida sobre o preenchimento, basta se basear no nosso exemplo. Após concluir,
+                salve
+                suas informações e solicite a geração do seu currículo. Você receberá o arquivo em formato PDF,
+                pronto para ser compartilhado e utilizado nas oportunidades que desejar.</p>
+            <button
+                    onclick="window.location.href = 'modulos/curriculo/curriculo.html'"
+                    class="btn btn-dark">Gere seu currículo!</button>
+        </div>
+
+    </div>
+</div>
+
+</body>
+
+</html>
