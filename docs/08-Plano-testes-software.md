@@ -50,17 +50,8 @@ Por exemplo:
 
 <br>
 
-| **Caso de teste**  | **CT-005 – Excluir o Currículo**  |
-|:---: |:---: |
-| Requisito associado | RF-004 - A aplicação deve possuir uma aba onde possa criar um currículo de acordo com as informações prestadas. |
-| Objetivo do teste | Verificar se o usuário está capacitado de Excluir um currículo já existente e não mais desejado. |
-| Passos | - Acessar o navegador. <br> - Informar o endereço do site (LINK DO SITE). <br> - Clicar em “Currículos”. <br>  - Selecionar o “Currículo desejado.<br> - Clicar em “excluir”. <br> |
-| Critério de êxito | Currículo excluído com êxito. |
-| Responsável pela elaboração do caso de teste | Nome do integrante da equipe. |
 
-<br>
-
-| **Caso de teste**  | **CT-006 – Gerar o currículo depois de pronto**  |
+| **Caso de teste**  | **CT-005 – Gerar o currículo depois de pronto**  |
 |:---: |:---: |
 | Requisito associado | RF-006 - Deverá permitir que o usuário gere o currículo e transforme em PDF ou então imprima o mesmo.|
 | Objetivo do teste | Verificar se o usuário está impossibilitado de gerar o currículo como PDF ou se desejar Imprima o currículo. |
@@ -70,7 +61,7 @@ Por exemplo:
 
 <br>
 
-| **Caso de teste**  | **CT-007 – O sistema deve permitir favoritar os cursos**  |
+| **Caso de teste**  | **CT-006 – O sistema deve permitir favoritar os cursos**  |
 |:---: |:---: |
 | Requisito associado | RF-007 - Deverá possuir um botão nos cursos para torna-los “favoritos”. |
 | Objetivo do teste | Verificar se o usuário está possibilitado favoritar os cursos do site Qualificaê! . |
@@ -80,7 +71,7 @@ Por exemplo:
 
 <br>
 
-| **Caso de teste**  | **CT-008 – Visualizar os cursos favoritados**  |
+| **Caso de teste**  | **CT-007 – Visualizar os cursos favoritados**  |
 |:---: |:---: |
 | Requisito associado | RF-008 - O sistema deverá permitir ao usuário acessar a página de favoritos. |
 | Objetivo do teste | Acessar os cursos anteriormente marcados como favoritos. |
@@ -90,7 +81,7 @@ Por exemplo:
 
 <br>
 
-| **Caso de teste**  | **CT-009 – Pesquisa por nome**  |
+| **Caso de teste**  | **CT-008 – Pesquisa por nome**  |
 |:---: |:---: |
 | Requisito associado | RF-009 - O sistema deverá permitir ao usuário pesquisar os cursos por seus nomes. |
 | Objetivo do teste | Verificar se o usuário está impossibilitado de usar a ferramenta de pesquisa dos cursos. |
@@ -100,7 +91,7 @@ Por exemplo:
 
 <br>
 
-| **Caso de teste**  | **CT-010 – Realizar avaliações sobre o site**  |
+| **Caso de teste**  | **CT-009 – Realizar avaliações sobre o site**  |
 |:---: |:---: |
 | Requisito associado | RF-010 - O sistema deverá permitir o usuário avaliar o funcionamento e experiência com a aplicação |
 | Objetivo do teste | Verificar se o usuário está capacitado de utilizar a ferramenta de avaliação do site |
@@ -111,7 +102,7 @@ Por exemplo:
 
 <br>
 
-| **Caso de teste**  | **CT-011 – Fórum**  |
+| **Caso de teste**  | **CT-010 – Fórum**  |
 |:---: |:---: |
 | Requisito associado | RF-011 - O sistema deve fornecer uma página de fórum para os usuários interagirem entre si.|
 | Objetivo do teste | Permitir que os usuários compartilhem entre si a sua experiência com o site.|
@@ -122,7 +113,7 @@ Por exemplo:
 
 <br>
 
-| **Caso de teste**  | **CT-012 – Like e Deslike**  |
+| **Caso de teste**  | **CT-011 – Like e Deslike**  |
 |:---: |:---: |
 | Requisito associado | RF-012 - Deverá permitir ao usuário avaliar outros comentários de usuários do site. |
 | Objetivo do teste | Verificar se os Likes e Deslikes estão sendo registrados corretamente. |
@@ -132,11 +123,11 @@ Por exemplo:
 
 <br>
 
-| **Caso de teste**  | **CT-013 – Remover favoritos**  |
+| **Caso de teste**  | **CT-012 – Remover favoritos**  |
 |:---: |:---: |
 | Requisito associado | RF-013 - O sistema deverá permitir ao usuario remover cursos da pagina de favoritos. |
 | Objetivo do teste | Verificar se o usuário está possibilitado de remover os cursos de seus favoritos. |
-| Passos | OBS: O usuário deverá estar logado. <br> 1ª OPÇÃO <br>- Acessar o navegador. <br> - Informar o endereço do site (LINK DO SITE). <br> - Clicar no ícone dos favoritos. <br> - Clicar no Ícone da lixeira para remover o curso dos favoritos. <br> 2ª OPÇÃO <BR> -Acessar o navegador. <br> - Informar o endereço do site (LINK DO SITE). <br> - Clicar na aba de cursos <br> -Clicar no Icone dos favoritos novamente para remover ele.  |
+| Passos | OBS: O usuário deverá estar logado. <br> - Acessar o navegador. <br> - Informar o endereço do site (LINK DO SITE). <br> - Clicar no ícone dos favoritos. <br> - Clicar no Ícone da lixeira para remover o curso dos favoritos.|
 | Critério de êxito | Curso removido da classificação de favoritos. |
 | Responsável pela elaboração do caso de teste | Nome do integrante da equipe. |
 
