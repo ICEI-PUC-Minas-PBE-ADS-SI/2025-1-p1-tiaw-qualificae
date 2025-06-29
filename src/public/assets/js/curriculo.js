@@ -54,9 +54,9 @@ async function substituirVariaveisTemplate(html) {
     const perfil_profissional = {
         nome: usuario.nome,
         email: usuario.email,
-        telefone: "(11) 99999-9999",
-        linkedin: "https://www.linkedin.com/in/lucas-ferreira-da-silva-11a844242/",
-        cidade: "Belo Horizonte-MG",
+        telefone: usuario.telefone,
+        linkedin: usuario.linkedin,
+        cidade: usuario.cidade,
         descricaoProfissional: usuario.descricaoProfissional,
         habilidadesCompetencias: usuario.habilidadesCompetencias,
         certificacoes: usuario.certificacoes,

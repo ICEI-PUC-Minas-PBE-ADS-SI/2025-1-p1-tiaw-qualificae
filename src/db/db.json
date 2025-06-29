@@ -6,7 +6,24 @@
       "senha": "123",
       "nome": "Administrador do Sistema",
       "email": "admin@abc.com",
-      "favoritos": []
+      "favoritos": [
+        {
+          "nome": "Gestão Financeira",
+          "instituicao": "Omie Academy",
+          "imagem": "http://localhost:3000/assets/images/negocios/1.jpg",
+          "link": "https://academy.omie.com.br/app/administracao-e-financas/gestao-financeira",
+          "area": "geral",
+          "id": "gesto-financeira"
+        },
+        {
+          "nome": "Desenvolvimento Profissional",
+          "instituicao": "Fundação Bradesco",
+          "imagem": "http://localhost:3000/assets/images/negocios/7.png",
+          "link": "https://www.ev.org.br/cursos/desenvolvimento-profissional",
+          "area": "geral",
+          "id": "desenvolvimento-profissional"
+        }
+      ]
     },
     {
       "id": 2,

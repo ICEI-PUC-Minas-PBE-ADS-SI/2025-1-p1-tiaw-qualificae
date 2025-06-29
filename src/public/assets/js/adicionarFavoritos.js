@@ -9,11 +9,12 @@ async function obterUsuarioDb(id) {
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
-    await obterUsuarioDb();
+    if (!usuarioCorrente) {
+        return;
+    }
+    await obterUsuarioDb(usuarioCorrente.id);
 
     document.addEventListener("click", async function (e) {
-        await obterUsuarioDb(usuarioCorrente.id);
-
         if (e.target.closest(".save-btn")) {
             const button = e.target.closest(".save-btn");
             const card = button.closest(".card");
@@ -78,11 +79,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                 if (!updateResponse.ok) {
                     throw new Error(`Erro ao atualizar favoritos: ${updateResponse.statusText}`);
                 }
-
-                // Atualiza o localStorage com os novos dados do usuário
-                const usuarioAtualizado = await updateResponse.json(); // json-server retorna o objeto atualizado no PATCH
-                localStorage.setItem("usuarioLogado", JSON.stringify(usuarioAtualizado));
-
             } catch (error) {
                 console.error("Falha ao processar favorito:", error);
                 alert("Ocorreu um erro ao gerenciar seus favoritos. Tente novamente.");
@@ -93,7 +89,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 // Chama essa função depois os cursos serem carregados na tela
 function marcarFavoritos() {
-    const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
     if (!usuarioLogado || !usuarioLogado.favoritos) return; // Verifica se há usuário e favoritos
 
     const favoritos = usuarioLogado.favoritos || [];

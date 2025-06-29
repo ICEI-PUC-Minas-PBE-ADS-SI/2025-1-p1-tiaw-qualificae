@@ -1,4 +1,5 @@
 const API_URL = '/curso';
+let categoriaAtual = "negocios";
 
 // Variável global para armazenar a categoria atual
 // A tela começa exibindo cursos da categoria "negócios"
