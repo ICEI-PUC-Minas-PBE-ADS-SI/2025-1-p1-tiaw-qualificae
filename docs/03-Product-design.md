@@ -53,20 +53,19 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | RF-003 | O sistema deve permitir navegar nos cursos disponíveis     |  ALTA      |
 | RF-004 | O sistema deve permitir gerar um currículo                 |  ALTA      |
 | RF-005 | O sistema deve permitir incluir informações do currículo   |  ALTA      |
-| RF-006 | O sistema deve permitir editar as informações do currículo |  MÉDIA     |
-| RF-007 | O sistema deve permitir favoritar os cursos                |  ALTA      |
-| RF-008 | O sistema deve permitir o usuário a visualizar os favoritos|  MÉDIA     |
-| RF-009 | O sistema deve permitir pesquisar cursos por nome          |  BAIXA     |
-| RF-010 | O sistema deve permitir avaliar o site                     |  BAIXA     |
-| RF-011 | O sistema deve permitir fazer comentários no fórum         |  MÉDIA     |
-| RF-012 | O sistema deve permitir dar like e deslike nos comentários |  MÉDIA     |
-| RF-013 | O sistema deve permitir remover curso dos favoritos        |  MÉDIA     |
+| RF-006 | O sistema deve permitir favoritar os cursos                |  ALTA      |
+| RF-007 | O sistema deve permitir o usuário a visualizar os favoritos|  MÉDIA     |
+| RF-008 | O sistema deve permitir pesquisar cursos por nome          |  BAIXA     |
+| RF-009 | O sistema deve permitir avaliar o site                     |  BAIXA     |
+| RF-010 | O sistema deve permitir fazer comentários no fórum         |  MÉDIA     |
+| RF-011 | O sistema deve permitir dar like e deslike nos comentários |  MÉDIA     |
+| RF-012 | O sistema deve permitir remover curso dos favoritos        |  MÉDIA     |
 
 ### Requisitos não funcionais
 
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve funcionar em diferentes dispositivos | MÉDIA     |
+| RNF-001 | O sistema deve ter interface intuitiva e de fácil navegação | MÉDIA     |
 | RNF-002 | O sistema deve funcionar durante 24 horas           | BAIXA      |
 | RNF-003 | O sistema deve suportar o acesso de até 1.000 usuários simultâneos | BAIXA      |
 | RNF-004 | O sistema deve gerar o currículo em até 30 segundos | BAIXA     |
