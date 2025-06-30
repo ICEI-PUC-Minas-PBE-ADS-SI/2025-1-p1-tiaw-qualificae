@@ -17,12 +17,26 @@ A falta de emprego é um dos maiores desafios enfrentados pela sociedade atual. 
 * Emanuelle Barbosa Henrique
 * Júlio César Vieira Santos
 * Victor Hugo Ribeiro
-  
 
 
 ## Professor
 
 * Amália Soares Vieira de Vasconcelos
+
+
+## Instruções de utilização
+
+Para utilizar o site, acesse o [site do Qualificaê!](https://two025-1-p1-tiaw-qualificae.onrender.com/index.html)  e crie sua conta preenchendo seus dados. Após realizar o login, explore todas as funcionalidades que oferecemos.
+
+Na página Cursos, você pode escolher os cursos de seu interesse e adicioná-los aos seus favoritos. Lembramos que nosso papel é apenas divulgar os cursos, a realização e responsabilidade pelo conteúdo são da plataforma que os oferece.
+
+Complete seu cadastro com os dados do seu currículo para que ele possa ser gerado automaticamente pelo nosso site.
+
+Você também pode interagir com outros usuários por meio do nosso fórum de mensagens e deixar uma avaliação sobre o site.
+
+Em caso de dúvidas, acesse a página Como Funciona.
+
+
 
 
 # Documentação
