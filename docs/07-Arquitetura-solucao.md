@@ -4,77 +4,280 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-![Arquitetura da solução](images/exemplo-arquitetura.png)
 
 ## Funcionalidades
 
 Esta seção apresenta as funcionalidades da solução.
 
-##### Funcionalidade 1 - Cadastro de contatos ⚠️ EXEMPLO ⚠️
+##### Funcionalidade 1 - Cadastro de usuário
 
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+Permite a inclusão dos dados do usuário no sistema
 
-* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Estrutura de dados:** [Usuarios](#estrutura-de-dados---usuarios)
 * **Instruções de acesso:**
-  * Abra o site e efetue o login;
-  * Acesse o menu principal e escolha a opção "Cadastros";
-  * Em seguida, escolha a opção "Contatos".
+
+  * Abra o site no menu principal e escolha a opção do ícone de perfil;
+  * Em seguida, escolha a opção criar conta;
+  * Abra o formulário e preencha com seus dados.
+
 * **Tela da funcionalidade**:
 
-![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+![Tela de funcionalidade](images/telaCadastro.png)
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários, quanto aos administradores da solução.
->
-> Inclua, para cada funcionalidade, itens como: (1) títulos e descrição da funcionalidade; (2) estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
+
+##### Funcionalidade 2 - Login do usuário
+
+Permite que o usuário acesse sua conta
+
+* **Estrutura de dados:** [Usuarios](#estrutura-de-dados---usuarios)
+* **Instruções de acesso:**
+
+  * Abra o site no menu principal e escolha a opção do ícone de perfil;
+  * Em seguida, escolha a opção login;
+  * Com seus dados já cadastrados faça login no site.
+
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/telaLogin.png)
+
+
+##### Funcionalidade 3 - Exibir os cursos favoritados
+
+Mostra na tela os cursos que foram adicionados aos favoritos do usuário
+
+* **Estrutura de dados:** [Usuarios](#estrutura-de-dados---usuarios) e [Cursos](#estrutura-de-dados---cursos)
+* **Instruções de acesso:**
+
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção do ícone de favoritos;
+  * Os cursos que estiverem favoritos aparecerão.
+
+
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/telaExibirFavoritos.png)
+
+##### Funcionalidade 4 - Favoritar cursos
+
+Opção para o usuário adicionar algum curso aos favoritos
+
+* **Estrutura de dados:** [Usuarios](#estrutura-de-dados---usuarios) e [Cursos](#estrutura-de-dados---cursos)
+* **Instruções de acesso:**
+
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção de curso;
+  * Escolha o curso desejado e clique na bandeira de favoritar.
+
+
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/telaCursos.png)
+
+
+##### Funcionalidade 5 - Filtrar cursos por categorias
+
+Navegue pelos cursos mudando as categorias separadas por áreas de estudos
+
+* **Estrutura de dados:** [Cursos](#estrutura-de-dados---cursos)
+* **Instruções de acesso:**
+
+  * Abra o site;
+  * Acesse o menu principal e escolha a opção de cursos;
+  * Escolha a categoria desejada que os cursos disponíveis vão ser exibidos.
+
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/telaCursos.png)
+
+
+##### Funcionalidade 6 - Pesquisar cursos por nome
+
+Escolha uma categoria e pesquise pelo nome do curso desejado
+
+* **Estrutura de dados:** [Cursos](#estrutura-de-dados---cursos)
+* **Instruções de acesso:**
+
+  * Abra o site;
+  * Acesse o menu principal e escolha a opção de cursos;
+  * Escolha a categoria desejada.
+  * Na barra de pesquisa procure pelo nome do curso.
+
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/telaCursos.png)
+
+
+##### Funcionalidade 7 - Avaliar o site
+
+Deixe sua avalição e comentário sobre o site
+
+* **Estrutura de dados:** [Cursos](#estrutura-de-dados---avaliacao)
+* **Instruções de acesso:**
+
+  * Abra o site;
+  * Na página home procure o ícone de avaliação;
+  * Ao abrir faça a avaliação do site.
+
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/telaAvaliarSite.png)
+
+
+##### Funcionalidade 8 - Cadastrar as informações do currículo
+
+Completar o cadastro inicial para ter os dados para completar o currículo
+
+* **Estrutura de dados:** [Usuarios](#estrutura-de-dados---usuarios)
+* **Instruções de acesso:**
+
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção de currículos;
+  * Preencha as informações referente ao seu currículo.
+  * Salve as informações.
+
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/telaCurriculo.png)
+
+
+##### Funcionalidade 9 - Gerar currículo
+
+Baixar o pdf do currículo para poder usá-lo
+
+* **Estrutura de dados:** [Usuarios](#estrutura-de-dados---usuarios)
+* **Instruções de acesso:**
+
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção de currículos;
+  * Com as informações já cadastradas no perfil.
+  * Escolha a opção gerar currículo e o pdf será baixado.
+
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/telaCurriculo2.png)
+
+
+##### Funcionalidade 10 - Forúm de mensagens
+
+Permiete os usuário a fazer comentário no site interagindo com outros usuários
+
+* **Estrutura de dados:** [Usuarios](#estrutura-de-dados---forum)
+* **Instruções de acesso:**
+
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção de fórum;
+  * Escreva seu comentário desejado.
+
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/telaForum.png)
+
+##### Funcionalidade 11 - Like e dislike fórum de mensagem
+
+Permite que o usuário interaja com gostei ou não gostei nas mensagens do usuários
+
+* **Estrutura de dados:** [Usuarios](#estrutura-de-dados---forum)
+* **Instruções de acesso:**
+
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção de fórum;
+  * Visualize as mensagens publicadas.
+  * No botão de like ou dislike interaja com elas.
+
+
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/telaForum.png)
+
 
 ### Estruturas de dados
 
 Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info.
 
-##### Estrutura de dados - Contatos
-
-Contatos da aplicação
-
-```json
-  {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
-  }
-  
-```
-
-##### Estrutura de dados - Usuários  ⚠️ EXEMPLO ⚠️
+##### Estrutura de dados - usuarios
 
 Registro dos usuários do sistema utilizados para login e para o perfil do sistema.
 
 ```json
   {
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    email: "admin@abc.com",
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    login: "admin",
-    nome: "Administrador do Sistema",
-    senha: "123"
+   "usuarios":
+    {
+      "id": 1,
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@abc.com",
+      "favoritos": [
+        {
+          "nome": "Gestão Financeira",
+          "instituicao": "Omie Academy",
+          "imagem": "http://localhost:3000/assets/images/negocios/1.jpg",
+          "link": "https://academy.omie.com.br/app/administracao-e-financas/gestao-financeira",
+          "area": "geral",
+          "id": "gesto-financeira"
+        },
+        {
+          "nome": "Desenvolvimento Profissional",
+          "instituicao": "Fundação Bradesco",
+          "imagem": "http://localhost:3000/assets/images/negocios/7.png",
+          "link": "https://www.ev.org.br/cursos/desenvolvimento-profissional",
+          "area": "geral",
+          "id": "desenvolvimento-profissional"
+        }
+      ]
+  }
+  
+```
+
+##### Estrutura de dados - cursos  
+
+Registro de cursos disponiveis por categoria no sistema
+
+```json
+    "curso": {
+    "negocios": [
+      {
+        "id": 1,
+        "area": "Administração, negócios e serviços",
+        "nome": "Gestão Financeira",
+        "instituicao": "Omie Academy",
+        "imagem": "../../assets/images/negocios/1.jpg",
+        "link": "https://academy.omie.com.br/app/administracao-e-financas/gestao-financeira"
+      }
+    ]
   }
 ```
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente as estruturas de dados utilizadas na solução tanto para dados utilizados na essência da aplicação, quanto outras estruturas que foram criadas para algum tipo de configuração.
->
-> Nomeie a estrutura, coloque uma descrição sucinta e apresente um exemplo em formato JSON.
->
-> **Orientações:**
->
-> * [JSON Introduction](https://www.w3schools.com/js/js_json_intro.asp)
-> * [Trabalhando com JSON - Aprendendo desenvolvimento web | MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON)
+##### Estrutura de dados - forum  
+
+Registro de mensagens e interações entre os usuários
+
+```json
+  {
+    "forum": [
+    {
+      "id": 1,
+      "id_usuario": 1,
+      "usuario": "Administrador do Sistema",
+      "comentario": "Olá! Este espaço é dedicado para interações entre os usuários. Para participar da discussão, basta enviar uma mensagem!",
+      "curtidas": [],
+      "descurtidas": []
+    }
+  ]
+  }
+```
+
+##### Estrutura de dados - avaliacao  
+
+Registro de avaliações do site feitas pelos os usuários
+
+```json
+}
+  "avaliacoes": []
+}
+```
+
+
 
 ### Módulos e APIs
 
@@ -82,28 +285,24 @@ Esta seção apresenta os módulos e APIs utilizados na solução.
 
 **Images**:
 
-* Unsplash - [https://unsplash.com/](https://unsplash.com/) ⚠️ EXEMPLO ⚠️
+* Shutterstock - [Shutterstock](https://www.shutterstock.com/pt/) 
 
 **Fonts:**
 
-* Icons Font Face - [https://fontawesome.com/](https://fontawesome.com/) ⚠️ EXEMPLO ⚠️
+* Fonts Google - [Fonts Google](https://fonts.google.com/specimen/Inter)
 
 **Scripts:**
 
-* jQuery - [http://www.jquery.com/](http://www.jquery.com/) ⚠️ EXEMPLO ⚠️
-* Bootstrap 4 - [http://getbootstrap.com/](http://getbootstrap.com/) ⚠️ EXEMPLO ⚠️
+* jQuery - [http://www.jquery.com/](http://www.jquery.com/) 
+* Bootstrap 4 - [http://getbootstrap.com/](http://getbootstrap.com/)
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente os módulos e APIs utilizados no desenvolvimento da solução. Inclua itens como: (1) frameworks, bibliotecas, módulos, etc. utilizados no desenvolvimento da solução; (2) APIs utilizadas para acesso a dados, serviços, etc.
+**API:**
+
+* Pdfshift - [Pdfshift](https://pdfshift.io/)
+
 
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foram realizados.
+Utilizamos a ferramenta Render, que oferece uma opção gratuita da API em Node.js com integração direta com o repositório no Github.
 
-> **Links úteis**:
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando seu site no Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
