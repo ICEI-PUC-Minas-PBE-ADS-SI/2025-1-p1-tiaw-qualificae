@@ -60,6 +60,22 @@ Descrição: Para acessar o gerador de currículos é necessário que o usuário
 ![Perfil Gerado](images/telaCurriculo2.png)
 Descrição: Depois de inserir todos seus dados aqui será mostrado uma previa do perfil profissional do usuário, que é dado a opção de gerar seu currículo completo por pdf com as formatações necessárias.
 
+##### TELA EXIBIR FAVORITOS
+
+![Homepage](images/telaExibirFavoritos.png)
+Descrição: Na tela de favoritos exibirá os cursos favoritados pelo usuário.
+
+##### TELA FÓRUM
+
+![Homepage](images/telaForum.png)
+Descrição: Na tela de fórum, irá mostrar uma área de interação onde o usuário poderá fazer algum comentário e avaliar com like e dislike o comentário de outro.
+
+
+##### TELA AVALIAÇÃO
+
+![Homepage](images/telaAvaliarSite.png)
+Descrição: Em avalição o usuário irá avaliar o site como um todo e podendo deixar comentários além das estrelas.
+
 ### Protótipo Interativo
 
 [Protótipo interativo](https://www.figma.com/proto/CrcEJGrKcesQyPxqsZfKER/Qualificaê-?node-id=5488-3&p=f&t=x1swShgHbTfgPFGo-0&scaling=scale-down&content-scaling=fixed&page-id=5488%3A2&starting-point-node-id=5493%3A1787)  
