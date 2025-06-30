@@ -26,7 +26,7 @@ A falta de emprego é um dos maiores desafios enfrentados pela sociedade atual. 
 
 ## Instruções de utilização
 
-Para utilizar o site, acesse o link  e crie sua conta preenchendo seus dados. Após realizar o login, explore todas as funcionalidades que oferecemos.
+Para utilizar o site, acesse o [site do Qualificaê!](https://two025-1-p1-tiaw-qualificae.onrender.com/index.html)  e crie sua conta preenchendo seus dados. Após realizar o login, explore todas as funcionalidades que oferecemos.
 
 Na página Cursos, você pode escolher os cursos de seu interesse e adicioná-los aos seus favoritos. Lembramos que nosso papel é apenas divulgar os cursos, a realização e responsabilidade pelo conteúdo são da plataforma que os oferece.
 
