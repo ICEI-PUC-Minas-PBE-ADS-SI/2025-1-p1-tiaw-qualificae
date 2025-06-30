@@ -4,7 +4,6 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-![Arquitetura da solução](images/exemplo-arquitetura.png)
 
 ## Funcionalidades
 
@@ -201,13 +200,31 @@ Registro dos usuários do sistema utilizados para login e para o perfil do siste
 
 ```json
   {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
+   "usuarios":
+    {
+      "id": 1,
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@abc.com",
+      "favoritos": [
+        {
+          "nome": "Gestão Financeira",
+          "instituicao": "Omie Academy",
+          "imagem": "http://localhost:3000/assets/images/negocios/1.jpg",
+          "link": "https://academy.omie.com.br/app/administracao-e-financas/gestao-financeira",
+          "area": "geral",
+          "id": "gesto-financeira"
+        },
+        {
+          "nome": "Desenvolvimento Profissional",
+          "instituicao": "Fundação Bradesco",
+          "imagem": "http://localhost:3000/assets/images/negocios/7.png",
+          "link": "https://www.ev.org.br/cursos/desenvolvimento-profissional",
+          "area": "geral",
+          "id": "desenvolvimento-profissional"
+        }
+      ]
   }
   
 ```
@@ -217,13 +234,17 @@ Registro dos usuários do sistema utilizados para login e para o perfil do siste
 Registro de cursos disponiveis por categoria no sistema
 
 ```json
-  {
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    email: "admin@abc.com",
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    login: "admin",
-    nome: "Administrador do Sistema",
-    senha: "123"
+    "curso": {
+    "negocios": [
+      {
+        "id": 1,
+        "area": "Administração, negócios e serviços",
+        "nome": "Gestão Financeira",
+        "instituicao": "Omie Academy",
+        "imagem": "../../assets/images/negocios/1.jpg",
+        "link": "https://academy.omie.com.br/app/administracao-e-financas/gestao-financeira"
+      }
+    ]
   }
 ```
 
@@ -233,12 +254,16 @@ Registro de mensagens e interações entre os usuários
 
 ```json
   {
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    email: "admin@abc.com",
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    login: "admin",
-    nome: "Administrador do Sistema",
-    senha: "123"
+    "forum": [
+    {
+      "id": 1,
+      "id_usuario": 1,
+      "usuario": "Administrador do Sistema",
+      "comentario": "Olá! Este espaço é dedicado para interações entre os usuários. Para participar da discussão, basta enviar uma mensagem!",
+      "curtidas": [],
+      "descurtidas": []
+    }
+  ]
   }
 ```
 
@@ -247,14 +272,9 @@ Registro de mensagens e interações entre os usuários
 Registro de avaliações do site feitas pelos os usuários
 
 ```json
-  {
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    email: "admin@abc.com",
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    login: "admin",
-    nome: "Administrador do Sistema",
-    senha: "123"
-  }
+}
+  "avaliacoes": []
+}
 ```
 
 
