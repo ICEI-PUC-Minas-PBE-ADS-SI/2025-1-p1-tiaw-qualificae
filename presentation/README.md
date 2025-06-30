@@ -5,7 +5,7 @@
 
 ## Slides
 
-[Slides de apresentação](files/slideTiaw.pdf)
+[Slides de apresentação](files/APRESENTACAO_FINAL_QUALIFICAE.pdf)
 
 ## Vídeo
 

@@ -14,7 +14,6 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 |Usuário do sistema | ver os cursos disponíveis na minha área  | que eu possa acessá-los e conhecer para realizá-los |
 |Usuário do sistema | pesquisar cursos disponíveis | que eu possa encontrar o que eu preciso |
 |Usuário do sistema | quero incluir informações no meu currículo | que eu possa especificar meus dados e montar meu currículo com base nas minhas habilidades desenvolvidas e requisitos da vaga |
-|Usuário do sistema | editar os dados inseridos no meu currículo | que eu possa modificar ou acrescentar informações |
 |Usuário do sistema | gerar meu currículo depois de pronto |  que eu possa imprimir ou salvar como pdf |
 |Usuário do sistema | favoritar os cursos | que eu possa deixar eles salvos |
 |Usuário do sistema | exibir os cursos favoritados | que eu possa ver eles quando preciasar de algum |
