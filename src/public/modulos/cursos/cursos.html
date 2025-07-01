@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Cursos</title>
+    <link href="../../assets/css/style.css" rel="stylesheet"/>
+    <link href="../../assets/css/cursos.css" rel="stylesheet"/>
+    <script src="../../assets/js/cursos.js"></script>
+    <script src="../../assets/js/adicionarFavoritos.js"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+</head>
+<header>
+    <div id="header-container"></div>
+    <script>
+        fetch('../../../menu.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('header-container').innerHTML = html;
+            });
+    </script>
+</header>
+
+<body>
+<div class="container">
+    <div class="my-4">
+        <h2 class="fs-1 text-center">As habilidades que você precisa estão aqui!</h2>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="d-flex flex-wrap justify-content-center gap-2 my-3">
+            <button class="btn btn-outline-secondary category-btn " data-category="negocios">Administração, negócios e
+                serviços</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="artistico">Artes e Design</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="biologicas">Ciências Biológicas e da
+                Terra</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="tecnologia">Análise e Desenvolvimento
+                de Sistemas</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="socioHumanas">Ciências sociais e
+                humanas</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="comunicacao">Comunicação e
+                informação</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="engenharias">Engenharia e
+                produção</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="saude">Saúde e Bem-estar</button>
+            <button class="btn btn-outline-secondary category-btn" data-category="linguagens">Conhecimentos Gerais e
+                Linguagens</button>
+        </div>
+    </nav>
+
+    <div id="container">
+        <div id="search-results">
+            <!-- Input de pesquisa -->
+            <div class="input-group">
+                <!-- Ícone da lupa -->
+                <div class="input-icon bg-dark py-2 px-3">
+                    <i class="bi bi-search icon text-white"></i>
+                </div>
+
+                <!-- Campo de input de pesquisa -->
+                <input type="text" id="search-input" class="form-control" placeholder="Pesquisar cursos"/>
+            </div>
+
+            <!-- Mensagem "nenhum resultado encontrado" -->
+            <div id="no_results">
+                <p>Nenhum resultado encontrado</p>
+            </div>
+        </div>
+    </div>
+
+
+    <main id="cursos-container" class="p-0">
+        <!-- Aqui o JavaScript vai injetar os cards -->
+    </main>
+</div>
+</body>
+
+</html>

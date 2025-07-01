@@ -1,0 +1,18 @@
+{
+  "name": "2025-1-p1-tiaw-qualificae-emanuelle",
+  "version": "1.0.0",
+  "description": "`CURSOS: Tecnologia em Análise e Desenvolvimento de Sistemas e Sistema da Informação`",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

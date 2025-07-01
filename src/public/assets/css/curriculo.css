@@ -1,0 +1,39 @@
+.titulo-container {
+    padding: 62px 289px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: -1.44px;
+}
+
+input {
+    padding: 14px 16px !important;
+}
+
+.container-top {
+    margin-top: 28px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container textarea {
+    padding-left: 2.5rem;
+}
+
+.input-container input {
+    padding-left: 2.5rem !important;
+}
+
+.input-container .icon {
+    position: absolute;
+    top: 50%;
+    left: 0.75rem;
+    transform: translateY(-100%);
+    color: var(--bs-dark);
+    pointer-events: none;
+}
+

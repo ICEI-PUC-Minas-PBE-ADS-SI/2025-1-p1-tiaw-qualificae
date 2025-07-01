@@ -1,0 +1,65 @@
+.input-container {
+    position: relative;
+}
+
+.input-container textarea {
+    padding-left: 2.5rem;
+}
+
+.input-container .icon {
+    position: absolute;
+    top: 50%;
+    left: 0.75rem;
+    transform: translateY(-50%);
+    color: var(--bs-primary);
+    pointer-events: none;
+}
+
+.comentarios-container {
+    padding: 21px 289px 0;
+}
+
+.participe-container {
+    padding: 43px 289px 0;
+}
+
+.titulo-container {
+    padding: 62px 289px 0;
+}
+
+/* Botões like/dislike */
+.icon-button {
+    background: none;
+    /* Remove o fundo */
+    border: none;
+    /* Remove a borda */
+    cursor: pointer;
+    /* Altera o cursor para "mãozinha apontando " ao passar por cima */
+    margin-bottom: 10px;
+}
+
+.icon-button:hover {
+    opacity: 0.6;
+    /* Deixa o botão mais translúcido, mostrando que ali dá para fazer algo  */
+}
+
+/* Tamanho dos ícones */
+
+
+/* Cor do ícone quando o usuário curtir */
+.like {
+    color: #28A745;
+}
+
+/* Cor do ícone quando o usuário não curtir */
+.dislike {
+    color: #DC3545;
+}
+
+.counter {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 8px;
+    vertical-align: top;
+    margin-top: 10px;
+}

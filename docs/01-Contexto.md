@@ -2,14 +2,17 @@
 
 A falta de emprego é um dos maiores desafios enfrentados pela sociedade atual. O mercado de trabalho exige cada vez mais qualificação dos profissionais, tornando essencial o acesso a oportunidades de aprendizado e aprimoramento. Muitas pessoas encontram dificuldades para se inserir ou se recolocar no mercado devido, principalmente, à falta de capacitação adequada.
 
-Diante dessa realidade, foi desenvolvido o Qualificaê!, um sistema criado para auxiliar a população por meio da capacitação profissional. O objetivo é proporcionar melhores condições para que os usuários conquistem empregos mais qualificados e condizentes com suas necessidades e expectativas. A plataforma oferece a indicação de cursos gratuitos para aprimoramento, além de ferramentas para a criação de currículos, facilitando o acesso ao mercado de trabalho e promovendo o desenvolvimento profissional de maneira acessível e eficiente.
+Diante dessa realidade, surge o Qualificaê!, um sistema desenvolvido para auxiliar as pessoas por meio da capacitação profissional. Com o nosso projeto, buscamos proporcionar melhores condições para que os usuários possam conquistar empregos, empregos mais qualificados e condizentes com suas necessidades e expectativas. A plataforma oferece a indicação de cursos gratuitos para aprimoramento, além de ferramentas para a criação de currículos, facilitando o acesso ao mercado de trabalho e promovendo o desenvolvimento profissional de forma acessível.
 
-Com base em pesquisas e dados fornecidos pelo IBGE, identificou-se que o mercado de trabalho brasileiro conta com uma grande parcela de pessoas que necessitam de capacitação para melhorar suas condições profissionais. O sistema tem como propósito fornecer uma solução intuitiva e eficaz, que facilite o acesso às informações e à qualificação necessária para o avanço na carreira.
+Com base em pesquisas e dados fornecidos pelo IBGE, identificamos que o mercado de trabalho brasileiro conta com uma grande parcela de pessoas que necessitam de capacitação para melhorar suas condições profissionais. Nosso objetivo é fornecer um sistema intuitivo e eficiente, que facilite o acesso às informações e à qualificação necessária para avançar na carreira.
 
-O Qualificaê! pretende ser uma ferramenta essencial para todos que desejam evoluir profissionalmente, oferecendo suporte desde a escolha do curso adequado até a elaboração de um currículo atrativo. Dessa forma, espera-se contribuir significativamente para a redução da taxa de desemprego e para a melhoria da qualidade da mão de obra no país.
+O Qualificaê! busca ser uma ferramenta essencial para todos que desejam evoluir profissionalmente, oferecendo suporte desde a escolha do curso adequado até a elaboração de um currículo atrativo. Com isso, acreditamos que poderemos contribuir significativamente para a redução da taxa de desemprego e para a melhoria da qualidade da mão de obra no país.
 
 
 ## Problema
+
+A falta de emprego tem se tornado uma preocupação crescente no Brasil, impactando diretamente a qualidade de vida da população e a economia do país. Esse problema é resultado de uma série de fatores interligados, que vão desde mudanças no mercado de trabalho até a ausência de políticas públicas eficazes para qualificação profissional.
+Um dos principais desafios enfrentados é a existência de vagas não preenchidas devido à falta de mão de obra especializada. Empresas estão em busca de profissionais qualificados, mas muitos candidatos não atendem aos requisitos exigidos. Essa situação é agravada pela redução de postos de trabalho, motivada por crises econômicas e inflação.
 
 A falta de emprego tem se tornado uma preocupação crescente no Brasil, impactando diretamente a qualidade de vida da população e a economia do país. Esse problema é resultado de uma série de fatores interligados, que vão desde mudanças no mercado de trabalho até a ausência de políticas públicas eficazes voltadas à qualificação profissional.
 
@@ -59,7 +62,6 @@ Diante desse cenário, definimos como objetivo principal da aplicação atuar co
 Diante desse cenário, estabelecemos que a objetivo central da nossa aplicação é servir como uma ponte entre os candidatos e as vagas disponíveis, através de  disponibilização de cursos gratuitos de diversas áreas, o suporte na elaboração de currículos feitos da forma correta e dicas de como de comportar em entrevistas. Estamos convencidos de que, ao facilitar o acesso para as pessoas, estaremos contribuindo de forma significativa para melhorar a inserção no mercado de trabalho de muitas pessoas. E simultaneamente, vamos auxiliar as empresas a descobrirem candidatos mais qualificados e compatíveis com suas necessidades.
 
 Assim, este aplicativo não se destina apenas a servir como um recurso tecnológico, mas sim como uma iniciativa com impacto social, que visa diminuir a distância entre aqueles que buscam trabalho e aqueles que têm vagas disponíveis. Nosso propósito é contribuir para a construção de um mercado de trabalho mais acessível, eficaz e igualitário, proporcionando assistência tanto aos candidatos quanto aos empregadores, e apresentando soluções concretas para um desafio tão recorrente em nossa sociedade.
-
 
 ## Público-alvo
 
